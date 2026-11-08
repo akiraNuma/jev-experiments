@@ -1,0 +1,2533 @@
+{
+  "source": "https://www.robots.ox.ac.uk/~vgg/data/pets/",
+  "license": "CC BY-SA 4.0",
+  "seed": "jev-images-2026-10-15-v1",
+  "selection": "per breed: SHA256(seed:id) ascending; 1 reference, 1 dev, 10 eval from trainval with XML",
+  "preprocessing": "RGB JPEG quality 90, fit to square with white padding; 384 classification/reference, 784 Box",
+  "archives": {
+    "annotations.tar.gz": "52425fb6de5c424942b7626b428656fcbd798db970a937df61750c0f1d358e91",
+    "images.tar.gz": "67195c5e1c01f1ab5f9b6a5d22b8c27a580d896ece458917e61d459337fa318d"
+  },
+  "items": [
+    {
+      "id": "British_Shorthair_122",
+      "breed": "British_Shorthair",
+      "species": "cat",
+      "split": "reference",
+      "annotation_size": [
+        500,
+        346
+      ],
+      "source_box": [
+        129,
+        55,
+        281,
+        223
+      ],
+      "source_size": [
+        500,
+        346
+      ],
+      "sha256": "bddc7c6e2b1066a063382eeed0a33c8df6c484482acb62776695bda9ddd94767",
+      "sha256_384": "59afb2e82a1e2a25e77c2d67fe52c9c0a14e0f023623b1432d8038dba516372c",
+      "box_384": {
+        "left": 0.258,
+        "top": 0.26375842967244706,
+        "right": 0.5619999999999999,
+        "bottom": 0.6001023603082852
+      },
+      "sha256_784": "1834e4db89effacf36f296aa58cb18d4d701b049e1b32e9c13f5275455a7d88d",
+      "box_784": {
+        "left": 0.258,
+        "top": 0.2631569246195588,
+        "right": 0.562,
+        "bottom": 0.5994492450159254
+      }
+    },
+    {
+      "id": "British_Shorthair_112",
+      "breed": "British_Shorthair",
+      "species": "cat",
+      "split": "dev",
+      "annotation_size": [
+        500,
+        375
+      ],
+      "source_box": [
+        184,
+        50,
+        325,
+        184
+      ],
+      "source_size": [
+        500,
+        375
+      ],
+      "sha256": "a54f4151893d5beb065994b5f06407dac511b959d3cac4964af1bef2a9828a2a",
+      "sha256_384": "fd7cfd7fa9eafdfad57fb58782d90328e1ba0bab9fbd0520f5fee5b4d865f399",
+      "box_384": {
+        "left": 0.36800000000000005,
+        "top": 0.225,
+        "right": 0.65,
+        "bottom": 0.49300000000000005
+      },
+      "sha256_784": "de338558be9f90a7dca46665ed14d4856db2d82034c7bd38d14475b699a267b9",
+      "box_784": {
+        "left": 0.368,
+        "top": 0.225,
+        "right": 0.65,
+        "bottom": 0.493
+      }
+    },
+    {
+      "id": "British_Shorthair_198",
+      "breed": "British_Shorthair",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        375
+      ],
+      "source_box": [
+        171,
+        11,
+        403,
+        255
+      ],
+      "source_size": [
+        500,
+        375
+      ],
+      "sha256": "2c83b20b8e52379f16a1d3d1c0f0abec1a723e1dd1d7f962aa3591d3639413be",
+      "sha256_384": "9bfc39880cbf60e23ebffddb89b802b9fd08f4a64a55f9464d97cffc6ec4611b",
+      "box_384": {
+        "left": 0.342,
+        "top": 0.147,
+        "right": 0.806,
+        "bottom": 0.635
+      },
+      "sha256_784": "9c0130df30c5ebecf52f6132f79756c0471987bf3a85f1538ae08397a4ace88b",
+      "box_784": {
+        "left": 0.34199999999999997,
+        "top": 0.14700000000000002,
+        "right": 0.806,
+        "bottom": 0.635
+      }
+    },
+    {
+      "id": "British_Shorthair_179",
+      "breed": "British_Shorthair",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        375
+      ],
+      "source_box": [
+        275,
+        4,
+        404,
+        138
+      ],
+      "source_size": [
+        500,
+        375
+      ],
+      "sha256": "7b8b502c4fff5f482a72e0ec9ddd74ea330fb2917d61642ca0728faf1fd88f1d",
+      "sha256_384": "743edf0ac6657ff89aa9d3f922df2dd21c88495cb52dbef8f076ffe91dc5c9fd",
+      "box_384": {
+        "left": 0.5499999999999999,
+        "top": 0.133,
+        "right": 0.8079999999999999,
+        "bottom": 0.40099999999999997
+      },
+      "sha256_784": "08e10106e2dbe9fc64a3f5d7a886a11357449ae341764c18e6ce392762264162",
+      "box_784": {
+        "left": 0.5499999999999999,
+        "top": 0.133,
+        "right": 0.8079999999999999,
+        "bottom": 0.401
+      }
+    },
+    {
+      "id": "British_Shorthair_16",
+      "breed": "British_Shorthair",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        375,
+        500
+      ],
+      "source_box": [
+        0,
+        0,
+        374,
+        392
+      ],
+      "source_size": [
+        375,
+        500
+      ],
+      "sha256": "ab13bb9c2fcb88ff0eb6e2100bc5fbf8b7a31f4d0fd34aab3f1b1e2c335df754",
+      "sha256_384": "bcf8369fc4a85fb0f624f38e10b0430fdf1e75d1cd0bf95283662feb41bf3bf0",
+      "box_384": {
+        "left": 0.125,
+        "top": 0.0,
+        "right": 0.8730000000000001,
+        "bottom": 0.7839999999999999
+      },
+      "sha256_784": "7a73d0dcb30ed569e0b6aa8dc5eeb26edf0503d3327fa8f6ea5095992014b286",
+      "box_784": {
+        "left": 0.125,
+        "top": 0.0,
+        "right": 0.873,
+        "bottom": 0.7839999999999999
+      }
+    },
+    {
+      "id": "British_Shorthair_121",
+      "breed": "British_Shorthair",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        375,
+        500
+      ],
+      "source_box": [
+        160,
+        264,
+        288,
+        399
+      ],
+      "source_size": [
+        375,
+        500
+      ],
+      "sha256": "3643de1d819175b18964cc049e860ea3b625a790db70bb49addc21a3b2741b87",
+      "sha256_384": "fbec0464d9ab5ce8ea04f53402112bd9529806de0b7e3aa5b78701df94fe1eaa",
+      "box_384": {
+        "left": 0.445,
+        "top": 0.528,
+        "right": 0.701,
+        "bottom": 0.798
+      },
+      "sha256_784": "edcb4dbc1789216a24a923660c1394d9bf94f4182af351e3551024e09533e0c7",
+      "box_784": {
+        "left": 0.445,
+        "top": 0.528,
+        "right": 0.7010000000000001,
+        "bottom": 0.7979999999999999
+      }
+    },
+    {
+      "id": "British_Shorthair_186",
+      "breed": "British_Shorthair",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        375
+      ],
+      "source_box": [
+        147,
+        32,
+        349,
+        245
+      ],
+      "source_size": [
+        500,
+        375
+      ],
+      "sha256": "f30b9af7a2aa1430933eab36c70ac9c04391885f29a0eff05b1e6cf0b34d9891",
+      "sha256_384": "fa3607800d26eafe1da474cc8cb8b76312eff5d322721f2aecc9d0b0529fb549",
+      "box_384": {
+        "left": 0.294,
+        "top": 0.18899999999999997,
+        "right": 0.698,
+        "bottom": 0.615
+      },
+      "sha256_784": "53c9c1018a568e338af5f3943f563d89a8eac7ca6e643f98d5631fa3bf943ffd",
+      "box_784": {
+        "left": 0.29400000000000004,
+        "top": 0.18899999999999997,
+        "right": 0.698,
+        "bottom": 0.615
+      }
+    },
+    {
+      "id": "British_Shorthair_175",
+      "breed": "British_Shorthair",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        375
+      ],
+      "source_box": [
+        183,
+        63,
+        379,
+        265
+      ],
+      "source_size": [
+        500,
+        375
+      ],
+      "sha256": "b68ca80196872eb83a76ed78a0735185efbc3a2aa7d28eeef1608d0cf8bff275",
+      "sha256_384": "5a6606188c6ddcc115e8d716f44e0d77b45aaee883c7e0e3044a097a9a05d480",
+      "box_384": {
+        "left": 0.36600000000000005,
+        "top": 0.251,
+        "right": 0.758,
+        "bottom": 0.655
+      },
+      "sha256_784": "bce20c84de83e2d9284cf01732f40b145066e3f82b8e78775474cdb77153a0ac",
+      "box_784": {
+        "left": 0.36600000000000005,
+        "top": 0.251,
+        "right": 0.758,
+        "bottom": 0.655
+      }
+    },
+    {
+      "id": "British_Shorthair_160",
+      "breed": "British_Shorthair",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        333
+      ],
+      "source_box": [
+        164,
+        29,
+        327,
+        187
+      ],
+      "source_size": [
+        500,
+        333
+      ],
+      "sha256": "38c3b3a424d8e3aec7074d701348e806f4b61d617209a0166e4ce2584120f53a",
+      "sha256_384": "4c971bf48d617a60ec9a4a9b7d03ad1449562161b4555412eaadb26f72f847c2",
+      "box_384": {
+        "left": 0.328,
+        "top": 0.2247247247247247,
+        "right": 0.654,
+        "bottom": 0.541041041041041
+      },
+      "sha256_784": "f2dc1efd5e43e0d5f04c29f8f5a850bd1012995ab2819628485474afc13de3aa",
+      "box_784": {
+        "left": 0.32799999999999996,
+        "top": 0.22507584114726972,
+        "right": 0.654,
+        "bottom": 0.5409886927744071
+      }
+    },
+    {
+      "id": "British_Shorthair_104",
+      "breed": "British_Shorthair",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        333,
+        500
+      ],
+      "source_box": [
+        69,
+        20,
+        331,
+        282
+      ],
+      "source_size": [
+        333,
+        500
+      ],
+      "sha256": "f0feaa9c31d7f15a1e181612c3a3d5b136d81f8aff0130c6ce1e0c7026e3b1a5",
+      "sha256_384": "555cd7310325cf8a0a2f0fc134a16cc8246be82448b283bd321d8ca273c5f864",
+      "box_384": {
+        "left": 0.3048048048048048,
+        "top": 0.04,
+        "right": 0.8293293293293292,
+        "bottom": 0.564
+      },
+      "sha256_784": "44b59374e5c289f684bf1edbe624322e6406b0fe588b006edc04860570974e72",
+      "box_784": {
+        "left": 0.30505377826806396,
+        "top": 0.04,
+        "right": 0.8289092664092664,
+        "bottom": 0.564
+      }
+    },
+    {
+      "id": "British_Shorthair_193",
+      "breed": "British_Shorthair",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        332
+      ],
+      "source_box": [
+        196,
+        66,
+        402,
+        267
+      ],
+      "source_size": [
+        500,
+        332
+      ],
+      "sha256": "5e97a5bd77e7a5a72a1cc79b9b6f920d6d0708111608c4b0bb7a9d35b47f2888",
+      "sha256_384": "e327c0b8161ab85172b9024273f59f4b7e7ccacaaae07585f9d42747a98f3e75",
+      "box_384": {
+        "left": 0.39199999999999996,
+        "top": 0.29867909136546184,
+        "right": 0.8039999999999999,
+        "bottom": 0.7007169302208837
+      },
+      "sha256_784": "8d0033f71f121111deee02c088df3c6789f88f5df15930c82580a9f54eb0d241",
+      "box_784": {
+        "left": 0.39199999999999996,
+        "top": 0.2991993484140644,
+        "right": 0.804,
+        "bottom": 0.7015267703466929
+      }
+    },
+    {
+      "id": "British_Shorthair_200",
+      "breed": "British_Shorthair",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        332
+      ],
+      "source_box": [
+        170,
+        26,
+        326,
+        183
+      ],
+      "source_size": [
+        500,
+        332
+      ],
+      "sha256": "2c1946252305586c77b3f307848e137408c291ea3281d434b34acf3ceea80e5c",
+      "sha256_384": "2f5e3c19d2d90b46c6e867182a64581736310f14d6c4478f73f213c4ef5a4b99",
+      "box_384": {
+        "left": 0.34,
+        "top": 0.2186715612449799,
+        "right": 0.652,
+        "bottom": 0.5327011169678715
+      },
+      "sha256_784": "d043fa5ce3ae77383f2a85e75f9e0a2a4cbfd8458df3d95cd21ee62ed89f10e5",
+      "box_784": {
+        "left": 0.34,
+        "top": 0.2191341898205065,
+        "right": 0.652,
+        "bottom": 0.5333899373002213
+      }
+    },
+    {
+      "id": "Russian_Blue_175",
+      "breed": "Russian_Blue",
+      "species": "cat",
+      "split": "reference",
+      "annotation_size": [
+        500,
+        484
+      ],
+      "source_box": [
+        165,
+        46,
+        362,
+        268
+      ],
+      "source_size": [
+        500,
+        484
+      ],
+      "sha256": "561cc4021ee160d4ae675b0a76b1ee055b7c2cdf2f4afe9149b3816057235ed8",
+      "sha256_384": "bc886bf6dfa4265437462ec14559314215459c022419c3cb911f4c09d21dc55f",
+      "box_384": {
+        "left": 0.33,
+        "top": 0.10769628099173555,
+        "right": 0.7240000000000001,
+        "bottom": 0.5520402892561983
+      },
+      "sha256_784": "c131803918cda66131342355a699eba77ba890a3a5bef60c2644103d8e2ca68b",
+      "box_784": {
+        "left": 0.33,
+        "top": 0.10731679035250465,
+        "right": 0.724,
+        "bottom": 0.5513682745825603
+      }
+    },
+    {
+      "id": "Russian_Blue_100",
+      "breed": "Russian_Blue",
+      "species": "cat",
+      "split": "dev",
+      "annotation_size": [
+        375,
+        500
+      ],
+      "source_box": [
+        55,
+        51,
+        305,
+        371
+      ],
+      "source_size": [
+        375,
+        500
+      ],
+      "sha256": "766d6fa3c9e338c861412a3ae0530dd03cd6f97b133203d9627b5ff99875108c",
+      "sha256_384": "d79e25dcbf688905ce7966f6d857b1b92b80b1fa063d3900f7d16482038378fd",
+      "box_384": {
+        "left": 0.23500000000000001,
+        "top": 0.102,
+        "right": 0.735,
+        "bottom": 0.742
+      },
+      "sha256_784": "593cb9e2291bf68bcb14d0b391bc918fa1289a157d2c1ee4e0d784d1f226e78a",
+      "box_784": {
+        "left": 0.23500000000000001,
+        "top": 0.10200000000000001,
+        "right": 0.735,
+        "bottom": 0.742
+      }
+    },
+    {
+      "id": "Russian_Blue_157",
+      "breed": "Russian_Blue",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        333,
+        500
+      ],
+      "source_box": [
+        135,
+        29,
+        295,
+        203
+      ],
+      "source_size": [
+        333,
+        500
+      ],
+      "sha256": "14b85719b6c0db1d48187cf3e58ab8b3135ea0e40e7591d94c83abd6ae2f021a",
+      "sha256_384": "916688e8baaf58b5408c3d88136a90ecda7311e38556ec084b70d01246558c4d",
+      "box_384": {
+        "left": 0.43693693693693697,
+        "top": 0.057999999999999996,
+        "right": 0.7572572572572573,
+        "bottom": 0.40599999999999997
+      },
+      "sha256_784": "7048948bd54babd9645e2629df0b7750fd7f83e3c0df77be282661630f6a1fa9",
+      "box_784": {
+        "left": 0.4370173745173745,
+        "top": 0.058,
+        "right": 0.7569291230005517,
+        "bottom": 0.40599999999999997
+      }
+    },
+    {
+      "id": "Russian_Blue_162",
+      "breed": "Russian_Blue",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        333,
+        500
+      ],
+      "source_box": [
+        73,
+        45,
+        327,
+        333
+      ],
+      "source_size": [
+        333,
+        500
+      ],
+      "sha256": "c9073702b3fce293924fcda9abab0fa37343f74595cdbbb01b4697a216d5f59c",
+      "sha256_384": "9a9068dc6eb64f159994349eea5a7383852ff1719e6f279e85dbde040e2aeedc",
+      "box_384": {
+        "left": 0.3128128128128128,
+        "top": 0.09000000000000001,
+        "right": 0.8213213213213213,
+        "bottom": 0.666
+      },
+      "sha256_784": "b60d3299ebe0aee40b82d9b24939001ce3979e989bb97de1232e777f4c8d8012",
+      "box_784": {
+        "left": 0.31305157198014344,
+        "top": 0.09,
+        "right": 0.820911472697187,
+        "bottom": 0.666
+      }
+    },
+    {
+      "id": "Russian_Blue_132",
+      "breed": "Russian_Blue",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        333
+      ],
+      "source_box": [
+        207,
+        62,
+        341,
+        216
+      ],
+      "source_size": [
+        500,
+        333
+      ],
+      "sha256": "cb2be0e7330e15938eabc274b5dbab710507f40ca00fe0a1c4ec13ce4dca6b0a",
+      "sha256_384": "8e14dbef62f6287f853ba15b6f86f6705a722e6e5a0ba82d2b94f9f26d0aec3a",
+      "box_384": {
+        "left": 0.414,
+        "top": 0.2907907907907908,
+        "right": 0.6819999999999999,
+        "bottom": 0.5990990990990991
+      },
+      "sha256_784": "6bca0f4fa24c18c4c35cbacde6612c1abe34c24deb9d34afea366b4d6080945e",
+      "box_784": {
+        "left": 0.41400000000000003,
+        "top": 0.291057639271925,
+        "right": 0.6819999999999999,
+        "bottom": 0.5989726971869829
+      }
+    },
+    {
+      "id": "Russian_Blue_160",
+      "breed": "Russian_Blue",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        375,
+        500
+      ],
+      "source_box": [
+        87,
+        72,
+        282,
+        302
+      ],
+      "source_size": [
+        375,
+        500
+      ],
+      "sha256": "b8c03f4630de5d4463451b5ba97ad4b4afe2237606884936189669a2e72f1372",
+      "sha256_384": "eff4cd8ef3a986c064f77f0c97cd6a6ccc53a0bfebf4a4110b4e192cc7fa9ca9",
+      "box_384": {
+        "left": 0.299,
+        "top": 0.144,
+        "right": 0.6890000000000001,
+        "bottom": 0.604
+      },
+      "sha256_784": "305d2777812a00b43f7082750a44eb49dc0089665b7789adc2c66eff36a56aeb",
+      "box_784": {
+        "left": 0.299,
+        "top": 0.144,
+        "right": 0.689,
+        "bottom": 0.604
+      }
+    },
+    {
+      "id": "Russian_Blue_166",
+      "breed": "Russian_Blue",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        333,
+        500
+      ],
+      "source_box": [
+        149,
+        63,
+        239,
+        165
+      ],
+      "source_size": [
+        333,
+        500
+      ],
+      "sha256": "5abf55d88e3a1a959dbd415caafc701cc1fbc129bfaa2dc76a61dbde1024c0ed",
+      "sha256_384": "e907d2a04b44503bf8b0cdece47b5cb8636c623cc97d804f22ebe1e36da51102",
+      "box_384": {
+        "left": 0.464964964964965,
+        "top": 0.126,
+        "right": 0.6451451451451452,
+        "bottom": 0.33
+      },
+      "sha256_784": "d10426663e3aa353607f215bd7504291c3b6e72b2a1acd508b300c9a038df116",
+      "box_784": {
+        "left": 0.46500965250965254,
+        "top": 0.126,
+        "right": 0.6449600110314396,
+        "bottom": 0.33
+      }
+    },
+    {
+      "id": "Russian_Blue_109",
+      "breed": "Russian_Blue",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        334
+      ],
+      "source_box": [
+        121,
+        51,
+        290,
+        253
+      ],
+      "source_size": [
+        500,
+        334
+      ],
+      "sha256": "916a87f2bdd835fc5286e70b12d4dad3d841fa0505ffd90ee5562249f9a8ffe1",
+      "sha256_384": "b0efd19bf84ab4994951a61e92ff66e8150ea0f4cac73a3e792ab926daf24c80",
+      "box_384": {
+        "left": 0.242,
+        "top": 0.26625654940119764,
+        "right": 0.58,
+        "bottom": 0.6710251372255489
+      },
+      "sha256_784": "0eec714ecf7adcd2b7d9575e200fce86fa87183d64ef2ebb8c3715b733a2655e",
+      "box_784": {
+        "left": 0.24200000000000002,
+        "top": 0.2678724184284492,
+        "right": 0.5800000000000001,
+        "bottom": 0.672094586337529
+      }
+    },
+    {
+      "id": "Russian_Blue_169",
+      "breed": "Russian_Blue",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        334
+      ],
+      "source_box": [
+        128,
+        37,
+        243,
+        182
+      ],
+      "source_size": [
+        500,
+        334
+      ],
+      "sha256": "8a36b733b529190510bb6b2a636c734c32311a7fda5999c91a9839bf0d4138b0",
+      "sha256_384": "728910869712647c597f961e3be59c8f1bfdc147b01eb266a569e2ce9a80d8f9",
+      "box_384": {
+        "left": 0.256,
+        "top": 0.23820328093812373,
+        "right": 0.486,
+        "bottom": 0.5287549900199601
+      },
+      "sha256_784": "539494b6e170355cfe71e4d574db6ab85f0ad941c78fc777948f5d3f6e87a891",
+      "box_784": {
+        "left": 0.256,
+        "top": 0.23985702065257242,
+        "right": 0.486,
+        "bottom": 0.5300164976170109
+      }
+    },
+    {
+      "id": "Russian_Blue_10",
+      "breed": "Russian_Blue",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        233,
+        350
+      ],
+      "source_box": [
+        79,
+        47,
+        166,
+        131
+      ],
+      "source_size": [
+        233,
+        350
+      ],
+      "sha256": "95aba430f53e9f6db80fb6f15d93c7ed430a096e9854d5cc7f5ba5e35da9582a",
+      "sha256_384": "1e482333edb038b4c1bc430348cbf269aa67d0fdc9b393b1012866fb36140117",
+      "box_384": {
+        "left": 0.3927038626609442,
+        "top": 0.13428571428571429,
+        "right": 0.6416309012875536,
+        "bottom": 0.3742857142857143
+      },
+      "sha256_784": "28cc4bbf8ba6045c767801731a8cd60afbe7c9ff066c7de4f3a46874aa0c2c15",
+      "box_784": {
+        "left": 0.39284071997897874,
+        "top": 0.13428571428571429,
+        "right": 0.6414502496277481,
+        "bottom": 0.3742857142857143
+      }
+    },
+    {
+      "id": "Russian_Blue_16",
+      "breed": "Russian_Blue",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        374
+      ],
+      "source_box": [
+        351,
+        34,
+        477,
+        175
+      ],
+      "source_size": [
+        500,
+        374
+      ],
+      "sha256": "671d610d976abab7afb65203b6386ddde90ab02e70eff76da01cbeaaca2b20cd",
+      "sha256_384": "f32e43c6fc3267697210fba93da0939e90f596ed6e779c7fc33684b71658e8a6",
+      "box_384": {
+        "left": 0.702,
+        "top": 0.19294507575757577,
+        "right": 0.9540000000000001,
+        "bottom": 0.4747173016934046
+      },
+      "sha256_784": "9d1d6b83ba649d9c65889aaf8c796089d54efb122c2549015f0209cb52e70975",
+      "box_784": {
+        "left": 0.7020000000000001,
+        "top": 0.19422541743970317,
+        "right": 0.9540000000000001,
+        "bottom": 0.4760176797991924
+      }
+    },
+    {
+      "id": "Russian_Blue_200",
+      "breed": "Russian_Blue",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        334
+      ],
+      "source_box": [
+        231,
+        133,
+        273,
+        175
+      ],
+      "source_size": [
+        500,
+        334
+      ],
+      "sha256": "876a4b063c8faf37fe3081f20287eb0362f70eef62488d9ae02f2ec4c15598eb",
+      "sha256_384": "f9580d1d4578ba8f3c2731d906242f4cd6046100e724d9cbba281b0d4d237679",
+      "box_384": {
+        "left": 0.46199999999999997,
+        "top": 0.4305685503992016,
+        "right": 0.5459999999999999,
+        "bottom": 0.5147283557884231
+      },
+      "sha256_784": "f77050564de5b5d268e52da11a81ce6ad15ef39014e07b2facce0389bf208148",
+      "box_784": {
+        "left": 0.462,
+        "top": 0.43196260540144205,
+        "right": 0.546,
+        "bottom": 0.5160087987290725
+      }
+    },
+    {
+      "id": "Siamese_158",
+      "breed": "Siamese",
+      "species": "cat",
+      "split": "reference",
+      "annotation_size": [
+        500,
+        375
+      ],
+      "source_box": [
+        182,
+        12,
+        453,
+        273
+      ],
+      "source_size": [
+        500,
+        375
+      ],
+      "sha256": "e83bd28b8a1954d003dcf625676e89f2fee57cf257da642e0f292694577d79c4",
+      "sha256_384": "6b74d1dcd825fe0c8312ddf828626e3c70c88621a53aa795e80e8204e67fd850",
+      "box_384": {
+        "left": 0.36400000000000005,
+        "top": 0.149,
+        "right": 0.906,
+        "bottom": 0.6709999999999999
+      },
+      "sha256_784": "3c7f62d4a9a0501ee66e000a5d1eb4ced6253b45f0dc87e61eaa4965accab47c",
+      "box_784": {
+        "left": 0.364,
+        "top": 0.149,
+        "right": 0.9059999999999999,
+        "bottom": 0.6710000000000002
+      }
+    },
+    {
+      "id": "Siamese_169",
+      "breed": "Siamese",
+      "species": "cat",
+      "split": "dev",
+      "annotation_size": [
+        500,
+        375
+      ],
+      "source_box": [
+        60,
+        0,
+        315,
+        216
+      ],
+      "source_size": [
+        500,
+        375
+      ],
+      "sha256": "624b1ae19d9cc751cb983537be58f84ebf2eab7d681dde6f184d3041e84273c3",
+      "sha256_384": "389f19444053d0c6599935e8fd1e81bd51aa4b1ec8a2cdf3d7bf659104fe7418",
+      "box_384": {
+        "left": 0.12,
+        "top": 0.125,
+        "right": 0.63,
+        "bottom": 0.557
+      },
+      "sha256_784": "98aaf67fa9eb35d5cb604f4fe81347141b45aec53ca63fc32bfe1e7d39ffaa25",
+      "box_784": {
+        "left": 0.12,
+        "top": 0.125,
+        "right": 0.63,
+        "bottom": 0.5569999999999999
+      }
+    },
+    {
+      "id": "Siamese_110",
+      "breed": "Siamese",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        375,
+        500
+      ],
+      "source_box": [
+        101,
+        0,
+        307,
+        170
+      ],
+      "source_size": [
+        375,
+        500
+      ],
+      "sha256": "75ebc99bb455eca35a29d502d50cdcb9ac7c2ee3e6677c4e44d0895c9db981ea",
+      "sha256_384": "6727a1da52cd4cf3e1a12b8a6b4ae824766721fbe2fd6a81d41973a6f6b75e5d",
+      "box_384": {
+        "left": 0.327,
+        "top": 0.0,
+        "right": 0.739,
+        "bottom": 0.34
+      },
+      "sha256_784": "1698162d71e396ca9fd860b56eb2254b6c1c4ed69e3fe0b77dbb40ab1c7b5de2",
+      "box_784": {
+        "left": 0.327,
+        "top": 0.0,
+        "right": 0.739,
+        "bottom": 0.34
+      }
+    },
+    {
+      "id": "Siamese_112",
+      "breed": "Siamese",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        375
+      ],
+      "source_box": [
+        118,
+        22,
+        334,
+        275
+      ],
+      "source_size": [
+        500,
+        375
+      ],
+      "sha256": "f1e257d2c5510d4f8790687eaafef79682144b32d5675120345cea81d87990e0",
+      "sha256_384": "c8611c3cabc5fcb49dee47945d8e9b07a23c9eaf1b1d4bfcce3357d908c1683a",
+      "box_384": {
+        "left": 0.236,
+        "top": 0.169,
+        "right": 0.668,
+        "bottom": 0.6749999999999999
+      },
+      "sha256_784": "a72080c3cb723a5b4ff3e14b8c1364a87389066803b99cb7b5851574db4bc364",
+      "box_784": {
+        "left": 0.236,
+        "top": 0.169,
+        "right": 0.668,
+        "bottom": 0.675
+      }
+    },
+    {
+      "id": "Siamese_109",
+      "breed": "Siamese",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        399
+      ],
+      "source_box": [
+        119,
+        25,
+        339,
+        288
+      ],
+      "source_size": [
+        500,
+        399
+      ],
+      "sha256": "6ee5777a75d573bc0f9dab0e345708a9e582549de429ec73ba5f6e3730e74df6",
+      "sha256_384": "8d2d71d9eb2f0359f17927857afa3be964d673d42e8fd090e669d7324bf42ad3",
+      "box_384": {
+        "left": 0.238,
+        "top": 0.15149201127819548,
+        "right": 0.6779999999999999,
+        "bottom": 0.6767504699248121
+      },
+      "sha256_784": "23af3dcdfca99fc005ed6fe4153b10fac0b6145e218502c76f8ef3d40c453973",
+      "box_784": {
+        "left": 0.23800000000000002,
+        "top": 0.1507947163827937,
+        "right": 0.678,
+        "bottom": 0.6771041123216204
+      }
+    },
+    {
+      "id": "Siamese_115",
+      "breed": "Siamese",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        335
+      ],
+      "source_box": [
+        238,
+        29,
+        419,
+        210
+      ],
+      "source_size": [
+        500,
+        335
+      ],
+      "sha256": "6d61e85d908c1e23aab99f37ce121ba5fee9c5732ca6da0e77122674eb3a9f12",
+      "sha256_384": "703930981931d2a0d3a57412b6ca9ab6ab25a6143d3ff75e91ef71abff531abf",
+      "box_384": {
+        "left": 0.476,
+        "top": 0.22199937810945272,
+        "right": 0.838,
+        "bottom": 0.5836054104477612
+      },
+      "sha256_784": "5d02e6f986e63d63cb585d19026a8197697ad8f06fa555012d7b8172412fd4a0",
+      "box_784": {
+        "left": 0.47600000000000003,
+        "top": 0.22250989948218095,
+        "right": 0.838,
+        "bottom": 0.5843169357295157
+      }
+    },
+    {
+      "id": "Siamese_167",
+      "breed": "Siamese",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        375
+      ],
+      "source_box": [
+        134,
+        66,
+        326,
+        269
+      ],
+      "source_size": [
+        500,
+        375
+      ],
+      "sha256": "f42cef36417e4965b87d41a58aa432fcd88947eaa595fbcaa3e861a2c1d9a347",
+      "sha256_384": "16bf1cc7162b31ca87c36abc8397cc2fd544cdf02d3cbc311779bfa5a91e81d1",
+      "box_384": {
+        "left": 0.268,
+        "top": 0.257,
+        "right": 0.652,
+        "bottom": 0.663
+      },
+      "sha256_784": "49d821015ea7135526166fd58f8071d5467ce972e4bc35950c2b00f0134410a7",
+      "box_784": {
+        "left": 0.268,
+        "top": 0.257,
+        "right": 0.652,
+        "bottom": 0.6629999999999999
+      }
+    },
+    {
+      "id": "Siamese_159",
+      "breed": "Siamese",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        375
+      ],
+      "source_box": [
+        149,
+        28,
+        393,
+        305
+      ],
+      "source_size": [
+        500,
+        375
+      ],
+      "sha256": "deefefff8f4e28218a56056f58123f6e3079775117facfc99284c7ce2191145e",
+      "sha256_384": "ea98ebdcb419b9f2ae9a5bc1284aa55eb654afd0b44953517d4b0188222a1ce8",
+      "box_384": {
+        "left": 0.298,
+        "top": 0.18100000000000002,
+        "right": 0.786,
+        "bottom": 0.735
+      },
+      "sha256_784": "a867fc87360751778c06f1f823320f28ad4bc3455e4f5cd0fb4719b31a047069",
+      "box_784": {
+        "left": 0.298,
+        "top": 0.181,
+        "right": 0.786,
+        "bottom": 0.735
+      }
+    },
+    {
+      "id": "Siamese_149",
+      "breed": "Siamese",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        333
+      ],
+      "source_box": [
+        226,
+        32,
+        431,
+        245
+      ],
+      "source_size": [
+        500,
+        333
+      ],
+      "sha256": "3c081d2e3c51dfce3c7b8f319c6f0fc832d9f07e2c08892f5e60797c8c8c7120",
+      "sha256_384": "03bd95601a9443c4a30a595b2423d6c4fb3690deb80ed960b10e363a150c5326",
+      "box_384": {
+        "left": 0.452,
+        "top": 0.23073073073073072,
+        "right": 0.862,
+        "bottom": 0.6571571571571572
+      },
+      "sha256_784": "fc0b978bbb70fa83f61ba858994eb15e1756d1ddd35c79e8c87cbdfecb464d80",
+      "box_784": {
+        "left": 0.452,
+        "top": 0.2310741864313293,
+        "right": 0.862,
+        "bottom": 0.6569567015995588
+      }
+    },
+    {
+      "id": "Siamese_178",
+      "breed": "Siamese",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        400
+      ],
+      "source_box": [
+        31,
+        17,
+        363,
+        369
+      ],
+      "source_size": [
+        500,
+        400
+      ],
+      "sha256": "9faefae96c8dc91923bd22911399c27552ff2401636699b59029d83b3ee9bf67",
+      "sha256_384": "f9e546409ef6e22c30fcc79b0806655fe7363b82c678dd009ee61705930a6f9a",
+      "box_384": {
+        "left": 0.062,
+        "top": 0.13293619791666667,
+        "right": 0.726,
+        "bottom": 0.8364778645833333
+      },
+      "sha256_784": "f3c74be9d3dbe70ca8887ca5cf3d94f442e63609fff0231820a6825ff7801d6b",
+      "box_784": {
+        "left": 0.062,
+        "top": 0.13347895408163266,
+        "right": 0.726,
+        "bottom": 0.8372544642857144
+      }
+    },
+    {
+      "id": "Siamese_103",
+      "breed": "Siamese",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        310
+      ],
+      "source_box": [
+        174,
+        73,
+        337,
+        242
+      ],
+      "source_size": [
+        500,
+        310
+      ],
+      "sha256": "bc031ee32bdd36922294ad970712506b92fa271e080e963bde431d137dd7a9ee",
+      "sha256_384": "b5b90385bceff4e9f39c85fe833f0da99c3864a775221c95ea9e508736a6e214",
+      "box_384": {
+        "left": 0.34800000000000003,
+        "top": 0.3360551075268818,
+        "right": 0.6739999999999999,
+        "bottom": 0.6739415322580644
+      },
+      "sha256_784": "39db9c322db88a3c61dbdb04d50713e04daa94ded618a0baa6e8fa134c1d0dad",
+      "box_784": {
+        "left": 0.348,
+        "top": 0.336026991441738,
+        "right": 0.674,
+        "bottom": 0.6739713627386438
+      }
+    },
+    {
+      "id": "Siamese_119",
+      "breed": "Siamese",
+      "species": "cat",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        335
+      ],
+      "source_box": [
+        190,
+        62,
+        277,
+        156
+      ],
+      "source_size": [
+        500,
+        335
+      ],
+      "sha256": "6caeec1a5c573d115aaf5c41c7b30d6820a0ff8435711154f8fb99c455644cc3",
+      "sha256_384": "539c8f4204afd500107a72aba0dc40d21ffaec2a3b279fa19fe9de8636a8b7a3",
+      "box_384": {
+        "left": 0.37999999999999995,
+        "top": 0.28792754975124374,
+        "right": 0.5539999999999999,
+        "bottom": 0.475722947761194
+      },
+      "sha256_784": "683bfd060dd04a10ce8b8f5185ef4922d1e2da3670c8a1c797b5ec8e912aad7f",
+      "box_784": {
+        "left": 0.38,
+        "top": 0.2884747182455072,
+        "right": 0.554,
+        "bottom": 0.47637450502589096
+      }
+    },
+    {
+      "id": "beagle_117",
+      "breed": "beagle",
+      "species": "dog",
+      "split": "reference",
+      "annotation_size": [
+        500,
+        332
+      ],
+      "source_box": [
+        180,
+        56,
+        346,
+        180
+      ],
+      "source_size": [
+        500,
+        332
+      ],
+      "sha256": "faf0efd406fc559f741ba7417468a3c8c0fb7a49b53e22e351e4ec04105964f3",
+      "sha256_384": "3e188a339ab311bb01a55459bea712968f980fefba8433c03288282b65186c8b",
+      "box_384": {
+        "left": 0.36000000000000004,
+        "top": 0.27867720883534136,
+        "right": 0.6920000000000001,
+        "bottom": 0.5267005522088354
+      },
+      "sha256_784": "2cdc54064d30cb782eb45c30712e09202bff69378e42572550b633d3ef0f3fdd",
+      "box_784": {
+        "left": 0.36,
+        "top": 0.27918305876567495,
+        "right": 0.6920000000000001,
+        "bottom": 0.5273850504057044
+      }
+    },
+    {
+      "id": "beagle_136",
+      "breed": "beagle",
+      "species": "dog",
+      "split": "dev",
+      "annotation_size": [
+        500,
+        375
+      ],
+      "source_box": [
+        96,
+        88,
+        469,
+        351
+      ],
+      "source_size": [
+        500,
+        375
+      ],
+      "sha256": "1f6c66d12addd97e77f09ea7ad49d8359e1ae92c80c467b072a9601da955b5e5",
+      "sha256_384": "f6537832e568e98e7bac12ac5ba96ce68b871cd9d089a70429b09d12ad365be3",
+      "box_384": {
+        "left": 0.19199999999999998,
+        "top": 0.301,
+        "right": 0.9380000000000001,
+        "bottom": 0.827
+      },
+      "sha256_784": "213079ea7c404709c231036e01af2533fbde477b91420ccbf0054ea958f43e6b",
+      "box_784": {
+        "left": 0.19199999999999998,
+        "top": 0.301,
+        "right": 0.9380000000000001,
+        "bottom": 0.8270000000000001
+      }
+    },
+    {
+      "id": "beagle_118",
+      "breed": "beagle",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        336
+      ],
+      "source_box": [
+        187,
+        120,
+        253,
+        174
+      ],
+      "source_size": [
+        500,
+        336
+      ],
+      "sha256": "00f97e8b2777118b814a1b6f8eab6819ac47b7c8078e2ba160da8078f06f16a3",
+      "sha256_384": "2dd52e95502a1e1fa0be0b9fdf57a18c68b8eece2b12534fccb7dab3999cc3c3",
+      "box_384": {
+        "left": 0.37400000000000005,
+        "top": 0.40401785714285715,
+        "right": 0.506,
+        "bottom": 0.5119977678571429
+      },
+      "sha256_784": "2bf2dfad83ee1a4df1003747d6f9c49879d7b6fda16f55fa5a3d0f1043ba5d8b",
+      "box_784": {
+        "left": 0.374,
+        "top": 0.4033345481049563,
+        "right": 0.506,
+        "bottom": 0.5113657069970845
+      }
+    },
+    {
+      "id": "beagle_139",
+      "breed": "beagle",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        375,
+        500
+      ],
+      "source_box": [
+        76,
+        75,
+        262,
+        233
+      ],
+      "source_size": [
+        375,
+        500
+      ],
+      "sha256": "7f66ca4b5e8924f90a7d67371a613442240b08daac0df0a2a320bac5dc574c63",
+      "sha256_384": "e85e14ce769fd087bcad6888af8898b4eacf496a379b923019a31bc4d286b356",
+      "box_384": {
+        "left": 0.27699999999999997,
+        "top": 0.15,
+        "right": 0.649,
+        "bottom": 0.46599999999999997
+      },
+      "sha256_784": "162bf59fbcec8a35eabd1aad8d00919bbcf95cb36c9a2a41736667546d405acc",
+      "box_784": {
+        "left": 0.277,
+        "top": 0.15,
+        "right": 0.649,
+        "bottom": 0.46599999999999997
+      }
+    },
+    {
+      "id": "beagle_181",
+      "breed": "beagle",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        334
+      ],
+      "source_box": [
+        12,
+        86,
+        491,
+        304
+      ],
+      "source_size": [
+        500,
+        334
+      ],
+      "sha256": "88b284167cf1962f2813fd5924d059f5c4a3dd638c26dd9c73ab91ae1ff92bf1",
+      "sha256_384": "3b3d3ff4468bd18c3afd02149ed5348bd982ec9e6a079f1b74ecd30daf11914e",
+      "box_384": {
+        "left": 0.023999999999999997,
+        "top": 0.3363897205588822,
+        "right": 0.9820000000000001,
+        "bottom": 0.7732191866267465
+      },
+      "sha256_784": "f7734f1ed9126997009970d5b32fcf1e2a838b773644cd12522a5f11aac37482",
+      "box_784": {
+        "left": 0.023999999999999997,
+        "top": 0.3379109128681413,
+        "right": 0.9820000000000001,
+        "bottom": 0.7741506782353661
+      }
+    },
+    {
+      "id": "beagle_141",
+      "breed": "beagle",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        334,
+        500
+      ],
+      "source_box": [
+        105,
+        156,
+        208,
+        255
+      ],
+      "source_size": [
+        334,
+        500
+      ],
+      "sha256": "e9619ee40827f86f1e94a93f4c811d331af8a766ed6ffb5017ad7d6c1efd1c1a",
+      "sha256_384": "a92a1a892ec22b6b011b0cbedc72f714bffb0a017d283b6adf123086cd6c1106",
+      "box_384": {
+        "left": 0.3744620134730539,
+        "top": 0.312,
+        "right": 0.5808539171656687,
+        "bottom": 0.51
+      },
+      "sha256_784": "225d38a8129303ca499279df07858de394fe3ccf19389e40d69f6c051b6f4fb7",
+      "box_784": {
+        "left": 0.3759318098496884,
+        "top": 0.312,
+        "right": 0.5820450934864964,
+        "bottom": 0.51
+      }
+    },
+    {
+      "id": "beagle_140",
+      "breed": "beagle",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        375
+      ],
+      "source_box": [
+        109,
+        70,
+        258,
+        174
+      ],
+      "source_size": [
+        500,
+        375
+      ],
+      "sha256": "beed987c57ebfd06fb94ea94110e73d35797a77e348118205e3b126edeb19c1a",
+      "sha256_384": "9c290e4ee459667c2502095d729739cee11b7d460be6e21e41275bd1760c593e",
+      "box_384": {
+        "left": 0.218,
+        "top": 0.26499999999999996,
+        "right": 0.516,
+        "bottom": 0.47300000000000003
+      },
+      "sha256_784": "0bbb4ac4e06b54130a633b99f8534e2db43af233059bbfee640eced1c000646b",
+      "box_784": {
+        "left": 0.218,
+        "top": 0.265,
+        "right": 0.516,
+        "bottom": 0.473
+      }
+    },
+    {
+      "id": "beagle_18",
+      "breed": "beagle",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        336,
+        500
+      ],
+      "source_box": [
+        42,
+        30,
+        291,
+        204
+      ],
+      "source_size": [
+        336,
+        500
+      ],
+      "sha256": "e3f2ffc349271a1acfb9bd48ab4c4788d34edd645fbb1d0f71b324c552bf57ee",
+      "sha256_384": "8d9c3a44f0f364db2c34c21d9856c64573399b1ba32da15ec36338c9fcf3db53",
+      "box_384": {
+        "left": 0.248046875,
+        "top": 0.06,
+        "right": 0.7459542410714285,
+        "bottom": 0.408
+      },
+      "sha256_784": "0063a2448c9ea86e30cb5a53df3a0c8e74565f88894cbc0279815ffd9b72b004",
+      "box_784": {
+        "left": 0.24728954081632654,
+        "top": 0.06,
+        "right": 0.7454332179300291,
+        "bottom": 0.40800000000000003
+      }
+    },
+    {
+      "id": "beagle_156",
+      "breed": "beagle",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        334
+      ],
+      "source_box": [
+        164,
+        64,
+        315,
+        217
+      ],
+      "source_size": [
+        500,
+        334
+      ],
+      "sha256": "707771a3f92c731bfd80f6b8f2b825c86626eed27ccbf6196e37d0cf99180c52",
+      "sha256_384": "938f12db96be85a66b26755bd1f1f11c306c1caf767918c1ce56946719ee447f",
+      "box_384": {
+        "left": 0.328,
+        "top": 0.2923060129740519,
+        "right": 0.63,
+        "bottom": 0.5988881611776448
+      },
+      "sha256_784": "12b76889a5fcf72000df13047f5eb7998b532d5d96585b2a467a29234eedf78f",
+      "box_784": {
+        "left": 0.32799999999999996,
+        "top": 0.29388671636319197,
+        "right": 0.63,
+        "bottom": 0.6000549920567029
+      }
+    },
+    {
+      "id": "beagle_171",
+      "breed": "beagle",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        375
+      ],
+      "source_box": [
+        110,
+        3,
+        348,
+        253
+      ],
+      "source_size": [
+        500,
+        375
+      ],
+      "sha256": "93c1634947b5958aa1f7508180dbdc02ffd37843ca8a296365eaa885f95114d8",
+      "sha256_384": "2f545f62146eaa67764733f9de0c4bc8ce87aacd79e572f435b440de7fb44770",
+      "box_384": {
+        "left": 0.22,
+        "top": 0.131,
+        "right": 0.6960000000000001,
+        "bottom": 0.631
+      },
+      "sha256_784": "7cf96c21edca571a8fba13ddd5b79b2b26b7ec3aebeb6eb0232d7f637d4fe5ab",
+      "box_784": {
+        "left": 0.21999999999999997,
+        "top": 0.131,
+        "right": 0.696,
+        "bottom": 0.631
+      }
+    },
+    {
+      "id": "beagle_153",
+      "breed": "beagle",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        378
+      ],
+      "source_box": [
+        180,
+        111,
+        325,
+        233
+      ],
+      "source_size": [
+        500,
+        378
+      ],
+      "sha256": "26731a4da70b96afed04d5c69a4556fe439add6bb12c9e2dfde02a70415c3f3f",
+      "sha256_384": "e6f9e21cdf6cab24c03540e7592293fa2d4b3f80fe0d0653a24645bc93cbb132",
+      "box_384": {
+        "left": 0.36000000000000004,
+        "top": 0.3441633597883598,
+        "right": 0.65,
+        "bottom": 0.5879078483245149
+      },
+      "sha256_784": "3ffbc55192c8394be7e6f13445fd08055fd87069cb1e6f2f58ee98ca1db9d918",
+      "box_784": {
+        "left": 0.36,
+        "top": 0.3432843375445416,
+        "right": 0.65,
+        "bottom": 0.5874061926357845
+      }
+    },
+    {
+      "id": "beagle_169",
+      "breed": "beagle",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        375
+      ],
+      "source_box": [
+        182,
+        0,
+        433,
+        186
+      ],
+      "source_size": [
+        500,
+        375
+      ],
+      "sha256": "62129b3072c3f093a2080ab03a44da09b021d061531fc1bd411836294638671f",
+      "sha256_384": "210d91922ed37acb086647547cbe048991fa4ff45269e6206f1eabd61b7a325c",
+      "box_384": {
+        "left": 0.36400000000000005,
+        "top": 0.125,
+        "right": 0.866,
+        "bottom": 0.49700000000000005
+      },
+      "sha256_784": "d16a8d8da2ceed902fc11d8cb98756d1cff12f1a04fbbb28b29008a3ecba6802",
+      "box_784": {
+        "left": 0.364,
+        "top": 0.125,
+        "right": 0.866,
+        "bottom": 0.49700000000000005
+      }
+    },
+    {
+      "id": "boxer_151",
+      "breed": "boxer",
+      "species": "dog",
+      "split": "reference",
+      "annotation_size": [
+        500,
+        333
+      ],
+      "source_box": [
+        187,
+        43,
+        367,
+        259
+      ],
+      "source_size": [
+        500,
+        333
+      ],
+      "sha256": "4d9b5babad22b0f72aac33ef3c14baf7c3e170cd10d12b5734fd750fccac6381",
+      "sha256_384": "2c203c24e95e1e43a83f774a0c099e9d1ff50fd4e0da902b321c8498855544fe",
+      "box_384": {
+        "left": 0.37400000000000005,
+        "top": 0.2527527527527527,
+        "right": 0.734,
+        "bottom": 0.6851851851851851
+      },
+      "sha256_784": "30135a3647731404103c33d8e296364b71a59081a6d14afc7888ab07bd3d4ad7",
+      "box_784": {
+        "left": 0.374,
+        "top": 0.25306811913954774,
+        "right": 0.734,
+        "bottom": 0.6849489795918368
+      }
+    },
+    {
+      "id": "boxer_128",
+      "breed": "boxer",
+      "species": "dog",
+      "split": "dev",
+      "annotation_size": [
+        500,
+        333
+      ],
+      "source_box": [
+        86,
+        204,
+        174,
+        311
+      ],
+      "source_size": [
+        500,
+        333
+      ],
+      "sha256": "980e72abc8d2b3db55c7c264459b4a5a2a7f830d9c750d82d6d96f1096f6bfa1",
+      "sha256_384": "56fca36889ec0be007d10402493d0a9beaf73f9c7e612d6dad27346c53fc8154",
+      "box_384": {
+        "left": 0.17200000000000001,
+        "top": 0.575075075075075,
+        "right": 0.34800000000000003,
+        "bottom": 0.7892892892892892
+      },
+      "sha256_784": "80d9336c201fda604a064597f946319e449de29ab8bbf31b9e6c74e16f88a29e",
+      "box_784": {
+        "left": 0.17200000000000001,
+        "top": 0.5749793160507446,
+        "right": 0.348,
+        "bottom": 0.7889202978488693
+      }
+    },
+    {
+      "id": "boxer_153",
+      "breed": "boxer",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        300
+      ],
+      "source_box": [
+        116,
+        0,
+        347,
+        251
+      ],
+      "source_size": [
+        500,
+        300
+      ],
+      "sha256": "eed90cef66d95e17336bd9cb5fb464512e888e676d5e8a5c4c251bb63db7048e",
+      "sha256_384": "0643aed63eeb89cf315277bdb384c50f44338a71ecb74c6423e0459810c1865d",
+      "box_384": {
+        "left": 0.23199999999999998,
+        "top": 0.20052083333333334,
+        "right": 0.694,
+        "bottom": 0.7016493055555556
+      },
+      "sha256_784": "d5151673b5d731c089d5936eba2cc6ca7d55d65b2c8bc25ec45c23859383f911",
+      "box_784": {
+        "left": 0.232,
+        "top": 0.2002551020408163,
+        "right": 0.694,
+        "bottom": 0.701828231292517
+      }
+    },
+    {
+      "id": "boxer_138",
+      "breed": "boxer",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        375,
+        500
+      ],
+      "source_box": [
+        43,
+        48,
+        269,
+        236
+      ],
+      "source_size": [
+        375,
+        500
+      ],
+      "sha256": "c2ea7f1e3aa3463aa81d500dc325b44742f4c1b4a5f581e266472e3a7b78d487",
+      "sha256_384": "79e08ecfa0315d3fc6785a8a4879db73fe53e945ccfec11a20d6b4a053016aa5",
+      "box_384": {
+        "left": 0.211,
+        "top": 0.09599999999999999,
+        "right": 0.663,
+        "bottom": 0.472
+      },
+      "sha256_784": "33d40d6e57f0f3f831cde9033039fc4924fc89a6a1371ac299a3ab5e647b64c6",
+      "box_784": {
+        "left": 0.21100000000000002,
+        "top": 0.09599999999999999,
+        "right": 0.6629999999999999,
+        "bottom": 0.472
+      }
+    },
+    {
+      "id": "boxer_119",
+      "breed": "boxer",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        333
+      ],
+      "source_box": [
+        210,
+        130,
+        276,
+        195
+      ],
+      "source_size": [
+        500,
+        333
+      ],
+      "sha256": "5e9a91bbedf191717a58ea2a817ab3a6c9ff245b7d6fa5dd96144eced0ca5052",
+      "sha256_384": "b96da295158a733bdf3b25282eee13bf89f40651213498cda5c6d77dcf074105",
+      "box_384": {
+        "left": 0.42,
+        "top": 0.4269269269269269,
+        "right": 0.5519999999999999,
+        "bottom": 0.5570570570570571
+      },
+      "sha256_784": "39ea393d851089df6e8df8120b4f9a65cd9451f8db108dc8dc1e9da124d799fc",
+      "box_784": {
+        "left": 0.42,
+        "top": 0.4270201323772752,
+        "right": 0.5519999999999999,
+        "bottom": 0.5569842801985659
+      }
+    },
+    {
+      "id": "boxer_103",
+      "breed": "boxer",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        375
+      ],
+      "source_box": [
+        156,
+        87,
+        319,
+        251
+      ],
+      "source_size": [
+        500,
+        375
+      ],
+      "sha256": "d8a8b21ba6a47f58770d6bec3ec70833d48524d3bdeda178bf68f7e9869baa21",
+      "sha256_384": "d23f2a217fac04e593244e2ab509d4cf9f08dc4f7c806491a79abf4c0896dc9d",
+      "box_384": {
+        "left": 0.312,
+        "top": 0.299,
+        "right": 0.638,
+        "bottom": 0.627
+      },
+      "sha256_784": "16c4568b71bac49ddcd978f001704bcd648fae93f29b4971b27146f6f43c8fab",
+      "box_784": {
+        "left": 0.312,
+        "top": 0.299,
+        "right": 0.638,
+        "bottom": 0.627
+      }
+    },
+    {
+      "id": "boxer_145",
+      "breed": "boxer",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        334,
+        500
+      ],
+      "source_box": [
+        177,
+        166,
+        290,
+        275
+      ],
+      "source_size": [
+        334,
+        500
+      ],
+      "sha256": "f6a9804a83a584d8bbd6b7aeeb3a58b308bb27d3b16a0105c1d6b6ad24e9bc79",
+      "sha256_384": "edf9e73a4b7a613ec04dacd4450b5800db6d578ce9161d67dd21c6e1aca0fac4",
+      "box_384": {
+        "left": 0.5187359655688623,
+        "top": 0.332,
+        "right": 0.7451659181636726,
+        "bottom": 0.5499999999999999
+      },
+      "sha256_784": "a5430e20e66dc0e4237aabaa881fda98b6f331e485ec48c7c62eb8b9b496369d",
+      "box_784": {
+        "left": 0.5200109984113406,
+        "top": 0.332,
+        "right": 0.7461352804594892,
+        "bottom": 0.5499999999999999
+      }
+    },
+    {
+      "id": "boxer_15",
+      "breed": "boxer",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        333
+      ],
+      "source_box": [
+        192,
+        44,
+        377,
+        262
+      ],
+      "source_size": [
+        500,
+        333
+      ],
+      "sha256": "c728393432be17792ef59a785fd355adc6aa95e0c8413b0003ed01d58e4dd4a6",
+      "sha256_384": "f1228c57d84bcf42dd16d9587a13a06bd8f2b01422ae5321ec1cfda470c3bf82",
+      "box_384": {
+        "left": 0.38399999999999995,
+        "top": 0.2547547547547548,
+        "right": 0.754,
+        "bottom": 0.6911911911911912
+      },
+      "sha256_784": "a07b17de13b41ad4442dc9629f7084d91f2223098b92f6e9e64d73e8d8ce66f5",
+      "box_784": {
+        "left": 0.38399999999999995,
+        "top": 0.25506756756756754,
+        "right": 0.754,
+        "bottom": 0.6909473248758963
+      }
+    },
+    {
+      "id": "boxer_14",
+      "breed": "boxer",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        333
+      ],
+      "source_box": [
+        239,
+        76,
+        353,
+        186
+      ],
+      "source_size": [
+        500,
+        333
+      ],
+      "sha256": "70ddde240970dd1ec3a135b40a4972c38a12a6bba166e9a579269198862af43b",
+      "sha256_384": "f5cb52fbb52a66b0023a135fb6a3f4982ee48063128422f5a7c2d4d767a28b96",
+      "box_384": {
+        "left": 0.478,
+        "top": 0.3188188188188188,
+        "right": 0.706,
+        "bottom": 0.539039039039039
+      },
+      "sha256_784": "d9b2c82253c5f9a4780a67267ad04a9fac3e64871632a242a0802a97880256ce",
+      "box_784": {
+        "left": 0.47800000000000004,
+        "top": 0.31904991726420295,
+        "right": 0.7060000000000001,
+        "bottom": 0.5389892443463872
+      }
+    },
+    {
+      "id": "boxer_105",
+      "breed": "boxer",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        375
+      ],
+      "source_box": [
+        229,
+        111,
+        371,
+        229
+      ],
+      "source_size": [
+        500,
+        375
+      ],
+      "sha256": "78a5b8bc52da499486f1242bc86ce8efaa6a465a9881f3d383ba867a8f876e72",
+      "sha256_384": "0faecb14b3befc0146ffc4f2136e557d54e8a7bca9ca722978398ee7063cfd69",
+      "box_384": {
+        "left": 0.458,
+        "top": 0.347,
+        "right": 0.742,
+        "bottom": 0.5830000000000001
+      },
+      "sha256_784": "1d3689b34ce9b7ca64c8dc525bd469c4790297fddfbe75f98b4d553d064888c1",
+      "box_784": {
+        "left": 0.458,
+        "top": 0.347,
+        "right": 0.742,
+        "bottom": 0.583
+      }
+    },
+    {
+      "id": "boxer_102",
+      "breed": "boxer",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        375
+      ],
+      "source_box": [
+        89,
+        23,
+        414,
+        326
+      ],
+      "source_size": [
+        500,
+        375
+      ],
+      "sha256": "823e071f101791dc9f93bf5c4c6dd4a86569bbcc0671416c9e3c2db5ec9f608b",
+      "sha256_384": "876c64da918570271c0531408e15406a687dbe5b7f6c674993dcfac1e1bbefa5",
+      "box_384": {
+        "left": 0.17800000000000002,
+        "top": 0.171,
+        "right": 0.828,
+        "bottom": 0.777
+      },
+      "sha256_784": "4308bd97c7593a5091d5d4c60cefdf3ad914bb93a53dcf9dc9793abe165fb8c7",
+      "box_784": {
+        "left": 0.178,
+        "top": 0.17099999999999999,
+        "right": 0.8280000000000001,
+        "bottom": 0.777
+      }
+    },
+    {
+      "id": "boxer_182",
+      "breed": "boxer",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        435
+      ],
+      "source_box": [
+        151,
+        181,
+        226,
+        248
+      ],
+      "source_size": [
+        500,
+        435
+      ],
+      "sha256": "994e998be307355f34e6e7039be42f934862ff82597515a7cf9867c3aa9ddece",
+      "sha256_384": "985a393dbcaa66c10d3e7c1ceb72f5efab6c43254e237fa9ca4022de6e63b8a2",
+      "box_384": {
+        "left": 0.302,
+        "top": 0.4270174808429119,
+        "right": 0.452,
+        "bottom": 0.5609853927203065
+      },
+      "sha256_784": "dbf7f8571751f798de341555c2444bde3886a347f57bfe0839b0cf480e4dc009",
+      "box_784": {
+        "left": 0.302,
+        "top": 0.4270085620455079,
+        "right": 0.452,
+        "bottom": 0.5609928454140277
+      }
+    },
+    {
+      "id": "pug_118",
+      "breed": "pug",
+      "species": "dog",
+      "split": "reference",
+      "annotation_size": [
+        332,
+        500
+      ],
+      "source_box": [
+        84,
+        169,
+        200,
+        266
+      ],
+      "source_size": [
+        332,
+        500
+      ],
+      "sha256": "fff79bb93c501f2fc87315c015b2876ace1199f67af41728c6156d37745caa09",
+      "sha256_384": "3c2109a877747ece57742164e18b90809c543b1e2b46ce68bd938e5aeebb7f52",
+      "box_384": {
+        "left": 0.33468247991967875,
+        "top": 0.338,
+        "right": 0.5667043172690763,
+        "bottom": 0.532
+      },
+      "sha256_784": "a214e8c3801d47a437730b3315004a3ddeb031f89cde58b8048b1079db392ccc",
+      "box_784": {
+        "left": 0.3352286697811655,
+        "top": 0.338,
+        "right": 0.5674176297024834,
+        "bottom": 0.532
+      }
+    },
+    {
+      "id": "pug_176",
+      "breed": "pug",
+      "species": "dog",
+      "split": "dev",
+      "annotation_size": [
+        300,
+        227
+      ],
+      "source_box": [
+        91,
+        19,
+        205,
+        126
+      ],
+      "source_size": [
+        300,
+        227
+      ],
+      "sha256": "86d49a66a5a12dc28bacb81908644c72a26f86f35c370ed9ae966cb2f301736e",
+      "sha256_384": "0e389a2ea9d8d662156837ac84241d164be974820ab091a541dcaaef036e1256",
+      "box_384": {
+        "left": 0.30333333333333334,
+        "top": 0.1832209067547724,
+        "right": 0.6833333333333332,
+        "bottom": 0.5404276798825257
+      },
+      "sha256_784": "c69a6c592028c3b3602b768500930de446af65a2d01eeb804c59955c923cdd97",
+      "box_784": {
+        "left": 0.30333333333333334,
+        "top": 0.18448260361413288,
+        "right": 0.6833333333333333,
+        "bottom": 0.5410129910995235
+      }
+    },
+    {
+      "id": "pug_191",
+      "breed": "pug",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        300,
+        225
+      ],
+      "source_box": [
+        113,
+        56,
+        229,
+        138
+      ],
+      "source_size": [
+        300,
+        225
+      ],
+      "sha256": "74db46d9428915c3beadb9a85e1a4094c8f341c88e3938d6adb18317c6b17d6f",
+      "sha256_384": "caeeae8839ea52b77f07994eadab78466481c1e92a8d91e3e1f6bb42adeb5a58",
+      "box_384": {
+        "left": 0.37666666666666665,
+        "top": 0.3116666666666667,
+        "right": 0.7633333333333333,
+        "bottom": 0.585
+      },
+      "sha256_784": "493d7de9d20d3e0a822f3b36bc935e88df607dae115db7478a98cca80d46f13d",
+      "box_784": {
+        "left": 0.37666666666666665,
+        "top": 0.31166666666666665,
+        "right": 0.7633333333333334,
+        "bottom": 0.585
+      }
+    },
+    {
+      "id": "pug_128",
+      "breed": "pug",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        300,
+        225
+      ],
+      "source_box": [
+        91,
+        22,
+        228,
+        132
+      ],
+      "source_size": [
+        300,
+        225
+      ],
+      "sha256": "fb9a9fa3cb2f74472a15a8d46ce15e5f70fb3f57e4ed7b84bb352fcc72b03bd7",
+      "sha256_384": "806e984aabb764828cbb6f570941f5f94aef1dcb8a457ba1096cc90bf95c3090",
+      "box_384": {
+        "left": 0.30333333333333334,
+        "top": 0.19833333333333333,
+        "right": 0.7599999999999999,
+        "bottom": 0.5650000000000001
+      },
+      "sha256_784": "1a9959ce7832d7ebe3d90fd991bf480c1edb0e8b6ecb3c9f1a081f4c9b936fa2",
+      "box_784": {
+        "left": 0.30333333333333334,
+        "top": 0.19833333333333333,
+        "right": 0.76,
+        "bottom": 0.565
+      }
+    },
+    {
+      "id": "pug_15",
+      "breed": "pug",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        500
+      ],
+      "source_box": [
+        204,
+        31,
+        426,
+        203
+      ],
+      "source_size": [
+        500,
+        500
+      ],
+      "sha256": "bc66020b6d469b3b59678d7d990e6a0c0fed36e56fdac41716883dc896926c11",
+      "sha256_384": "91b1a145b25f73115463117ec1cf0fe3da9dfc431db52c686ff592321137ee64",
+      "box_384": {
+        "left": 0.408,
+        "top": 0.062,
+        "right": 0.852,
+        "bottom": 0.40599999999999997
+      },
+      "sha256_784": "a8dea29c18e79f19acf73f7e1d3834cd491383d9d4752ac37246112b5e7306f5",
+      "box_784": {
+        "left": 0.40800000000000003,
+        "top": 0.062,
+        "right": 0.852,
+        "bottom": 0.40599999999999997
+      }
+    },
+    {
+      "id": "pug_101",
+      "breed": "pug",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        333
+      ],
+      "source_box": [
+        70,
+        46,
+        269,
+        218
+      ],
+      "source_size": [
+        500,
+        333
+      ],
+      "sha256": "5a17500cca23f72e220aff2e5fa11d2ac7b2ccb17591e3cbf7e7ee8774a0666a",
+      "sha256_384": "cb262031cb83a875a9cac4250dc3d289d4d7e5a4bfc3329a3ea2fbf8b0e5b7a2",
+      "box_384": {
+        "left": 0.13999999999999999,
+        "top": 0.25875875875875876,
+        "right": 0.538,
+        "bottom": 0.6031031031031031
+      },
+      "sha256_784": "53ae40d5b9b300c2bffa3381ef7d693b4d3a899fc8e364243c68d50c98f0e175",
+      "box_784": {
+        "left": 0.14,
+        "top": 0.2590664644236073,
+        "right": 0.5379999999999999,
+        "bottom": 0.6029715940430226
+      }
+    },
+    {
+      "id": "pug_131",
+      "breed": "pug",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        300,
+        200
+      ],
+      "source_box": [
+        134,
+        46,
+        235,
+        122
+      ],
+      "source_size": [
+        300,
+        200
+      ],
+      "sha256": "a24d4d34585d856f2b674fd2d9075a5fff4e20116195cf18b42df1ecd0126002",
+      "sha256_384": "28a3965ad2f6f211319d59232ceed60face9e9a72515bc7b62ecbc582f5b0008",
+      "box_384": {
+        "left": 0.4466666666666667,
+        "top": 0.32,
+        "right": 0.7833333333333333,
+        "bottom": 0.5733333333333334
+      },
+      "sha256_784": "5ad893e45c13ec7070736c2f6927c8489a1f7907d3393188dc4ca78d4526d1f1",
+      "box_784": {
+        "left": 0.44666666666666666,
+        "top": 0.31924744897959184,
+        "right": 0.7833333333333333,
+        "bottom": 0.5727423469387755
+      }
+    },
+    {
+      "id": "pug_134",
+      "breed": "pug",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        300,
+        225
+      ],
+      "source_box": [
+        126,
+        19,
+        220,
+        92
+      ],
+      "source_size": [
+        300,
+        225
+      ],
+      "sha256": "241242649d0aca56c243b9a8aa894c4c08fa2e988be965623127a5e052b008b5",
+      "sha256_384": "0883e95930df7343a311eedda9c88e113c7bcae5e5118835f09333cc19d83ce1",
+      "box_384": {
+        "left": 0.42,
+        "top": 0.18833333333333332,
+        "right": 0.7333333333333334,
+        "bottom": 0.43166666666666664
+      },
+      "sha256_784": "93ac47ccdcdec908ec947bc6f58f22ca2b512f777f186a1a898f45df0dfc940c",
+      "box_784": {
+        "left": 0.42,
+        "top": 0.18833333333333332,
+        "right": 0.7333333333333333,
+        "bottom": 0.4316666666666667
+      }
+    },
+    {
+      "id": "pug_116",
+      "breed": "pug",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        500,
+        333
+      ],
+      "source_box": [
+        123,
+        3,
+        375,
+        242
+      ],
+      "source_size": [
+        500,
+        333
+      ],
+      "sha256": "7ad82e186d704fc5bb65ca8bf88a07e5c83bd19781405626609fca4d506dcd29",
+      "sha256_384": "eb15f7fa1c84ecf71534c91cbbfbf3cd58b6e524816adc5377d8713524b274e6",
+      "box_384": {
+        "left": 0.246,
+        "top": 0.1726726726726727,
+        "right": 0.75,
+        "bottom": 0.6511511511511512
+      },
+      "sha256_784": "e8fa40ac55b130134275401158abe57df161047ce5f5fed215e7c1edda905987",
+      "box_784": {
+        "left": 0.246,
+        "top": 0.17309018201875345,
+        "right": 0.75,
+        "bottom": 0.6509583563154991
+      }
+    },
+    {
+      "id": "pug_161",
+      "breed": "pug",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        300,
+        281
+      ],
+      "source_box": [
+        64,
+        35,
+        199,
+        166
+      ],
+      "source_size": [
+        300,
+        281
+      ],
+      "sha256": "d294cef6aec3d5dc6f9791f5f64d8ccf7678ee0ee17e6972aad9dbb967ce3398",
+      "sha256_384": "879d282efed495858130911c66ab2fd97f42f3b0bd717a43f1bfef9943901b86",
+      "box_384": {
+        "left": 0.21333333333333335,
+        "top": 0.14802046263345195,
+        "right": 0.6633333333333333,
+        "bottom": 0.5850756227758007
+      },
+      "sha256_784": "97b6c9d8111aeb1a143ace07b14e4dbd4fe509ebccb016b4ae6cdc6b675a09fd",
+      "box_784": {
+        "left": 0.21333333333333332,
+        "top": 0.1484993463577602,
+        "right": 0.6633333333333332,
+        "bottom": 0.5849598736291669
+      }
+    },
+    {
+      "id": "pug_162",
+      "breed": "pug",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        300,
+        225
+      ],
+      "source_box": [
+        64,
+        30,
+        240,
+        163
+      ],
+      "source_size": [
+        300,
+        225
+      ],
+      "sha256": "f7c6de24bf005bf201a25ae41aaba2ad9efeb8713be195dd6ceb12fc99981579",
+      "sha256_384": "70c37e12f7334c5a1e0a3ed9312d9b84fea4228adb0cecb1abd69f648a50d5db",
+      "box_384": {
+        "left": 0.21333333333333335,
+        "top": 0.225,
+        "right": 0.7999999999999999,
+        "bottom": 0.6683333333333333
+      },
+      "sha256_784": "f4d97585f176c8e188da88885b0ff121d5370e68712f9460909ae6cbc41db387",
+      "box_784": {
+        "left": 0.21333333333333332,
+        "top": 0.225,
+        "right": 0.8,
+        "bottom": 0.6683333333333333
+      }
+    },
+    {
+      "id": "pug_135",
+      "breed": "pug",
+      "species": "dog",
+      "split": "eval",
+      "annotation_size": [
+        208,
+        300
+      ],
+      "source_box": [
+        56,
+        37,
+        148,
+        112
+      ],
+      "source_size": [
+        208,
+        300
+      ],
+      "sha256": "3e8526ed5c42e9eb56b8e21da85f0c95fb335b56ed8416ca7a5763423bb76c84",
+      "sha256_384": "e40928603edba5c5fa4e8c7a9b8baa749796c45b74f7c299be602d08351f273b",
+      "box_384": {
+        "left": 0.3401442307692308,
+        "top": 0.12333333333333334,
+        "right": 0.6465344551282052,
+        "bottom": 0.37333333333333335
+      },
+      "sha256_784": "17ddcd8ef5cdc23bf035b940104733c34d98e585a9c71dac343adab20c9f8e08",
+      "box_784": {
+        "left": 0.33987441130298274,
+        "top": 0.12333333333333332,
+        "right": 0.6467817896389325,
+        "bottom": 0.37333333333333335
+      }
+    }
+  ]
+}

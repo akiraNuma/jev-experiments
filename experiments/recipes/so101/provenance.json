@@ -1,0 +1,44 @@
+{
+  "git_head": "6979a11cc98524d597dd01941e260afb27c840ca",
+  "calibration_files": [
+    {
+      "file": "calibration/fixed_jaw.json",
+      "sha256": "fa13e46acdd7cc12cd8553d8e3f8fbe208f2b182c741ceb8a146dac3bab9fa78"
+    },
+    {
+      "file": "calibration/grid_calibration.json",
+      "sha256": "692f7817a148cf932e3079bab2afc64d35afd71a8b43c77a07d14d0204c75d83"
+    },
+    {
+      "file": "calibration/gripper_cam_intrinsics.json",
+      "sha256": "0197394e0ab18434c11f9e6004b01adab1b3bcf19815848f793d1969c8c86ac2"
+    },
+    {
+      "file": "calibration/overhead_camera.json",
+      "sha256": "962798ac4299cdb2f4e6fa657eacbef6e04470cfc3cdcd646aba0fcefa4103bf"
+    },
+    {
+      "file": "calibration/rest_pose.json",
+      "sha256": "86fae1cba60ed2e353d97f880ed20537ca5efe2cab8e39c3737618e154213c9f"
+    },
+    {
+      "file": "calibration/servo_calibration.json",
+      "sha256": "246cd3b958c169fb053c2c30f40d4dc8747c2ede48eb893d5741851d1425d2ac"
+    },
+    {
+      "file": "calibration/sheet_placement.json",
+      "sha256": "89efd65b4dcc646c3a4275a6e1c75fa77a9644cea20e97580908ea8a89f080a3"
+    },
+    {
+      "file": "calibration/wrist_camera.json",
+      "sha256": "7a8679a3b6f7031b4d20e14607a64ef2383124f7a83d3a24a8de5cbeb4be66a4"
+    }
+  ],
+  "all_10_judgement_images_reviewed_by": "Codex; unblinded visual review; not independent human labels",
+  "original_controller_code_changed": false,
+  "final_state": "Red cube on table, empty jaws parked; Web application still running",
+  "recording_date": "2026-10-21",
+  "hardware_operation": "Existing Web application APIs; no new controller implementation.",
+  "robot_code_in_book": false,
+  "photo_selection": "Trial 1 of fixed series for setup/hold/empty; exploratory transport before/after for failure. Not selected for best scores."
+}

@@ -1,0 +1,322 @@
+{
+  "trial01_query": {
+    "chat": "赤いキューブ を把持、指定位置へ設置。",
+    "function_calls": [
+      {
+        "name": "pick",
+        "args": {
+          "corners_2d": [
+            [
+              424,
+              345
+            ],
+            [
+              424,
+              275
+            ],
+            [
+              532,
+              275
+            ],
+            [
+              532,
+              345
+            ]
+          ],
+          "label": "赤いキューブ"
+        }
+      },
+      {
+        "name": "place",
+        "args": {
+          "x": 480,
+          "y": 480
+        }
+      }
+    ],
+    "actions": [
+      {
+        "name": "pick",
+        "corners_2d": [
+          [
+            424.0,
+            345.0
+          ],
+          [
+            424.0,
+            275.0
+          ],
+          [
+            532.0,
+            275.0
+          ],
+          [
+            532.0,
+            345.0
+          ]
+        ],
+        "label": "赤いキューブ"
+      },
+      {
+        "name": "place",
+        "x": 480.0,
+        "y": 480.0
+      }
+    ],
+    "warnings": [],
+    "latency": 3.18,
+    "model": "gemini-robotics-er-2-preview",
+    "usage": {
+      "input_tokens": 3729,
+      "output_tokens": 74,
+      "total_tokens": 3803
+    },
+    "cost": {
+      "usd": 0.0041,
+      "jpy": 0.7
+    }
+  },
+  "trial01_judge": {
+    "views": 2,
+    "chat": "失敗\n\n開始時点の画像と現在時点の画像を比較すると、赤いキューブおよび青いキューブの位置は全く変化していません。また、ロボットアームのグリッパーの位置や状態も開始時点と同じままであり、タスクがまだ実行されていないため、失敗と判定します。",
+    "verdict": "failure",
+    "latency": 4.86,
+    "model": "gemini-robotics-er-2-preview",
+    "usage": {
+      "input_tokens": 4445,
+      "output_tokens": 306,
+      "total_tokens": 4751
+    },
+    "cost": {
+      "usd": 0.00598,
+      "jpy": 1.02
+    },
+    "jev": {
+      "model": "jev-1.14.0",
+      "verdict": "failure",
+      "confidence": 0.92,
+      "probabilities": {
+        "success": 0.03,
+        "failure": 0.95,
+        "cannot_tell": 0.02
+      },
+      "usage": {
+        "input_tokens": 3999,
+        "output_tokens": 41
+      },
+      "cost_usd": 0.000167958,
+      "latency_s": 0.305,
+      "cost_jpy": 0.0286,
+      "raw": {
+        "model": "jev-1.14.0",
+        "answers": {
+          "outcome": {
+            "type": "choice",
+            "choice": "failure",
+            "confidence": 0.92,
+            "probabilities": {
+              "success": 0.03,
+              "failure": 0.95,
+              "cannot_tell": 0.02
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 3999,
+          "output_tokens": 41
+        }
+      }
+    }
+  },
+  "trial02_query": {
+    "chat": "赤いキューブ を把持。",
+    "function_calls": [
+      {
+        "name": "pick",
+        "args": {
+          "label": "赤いキューブ",
+          "corners_2d": [
+            [
+              424,
+              345
+            ],
+            [
+              424,
+              275
+            ],
+            [
+              532,
+              275
+            ],
+            [
+              532,
+              345
+            ]
+          ]
+        }
+      }
+    ],
+    "actions": [
+      {
+        "name": "pick",
+        "corners_2d": [
+          [
+            424.0,
+            345.0
+          ],
+          [
+            424.0,
+            275.0
+          ],
+          [
+            532.0,
+            275.0
+          ],
+          [
+            532.0,
+            345.0
+          ]
+        ],
+        "label": "赤いキューブ"
+      }
+    ],
+    "warnings": [],
+    "latency": 2.97,
+    "model": "gemini-robotics-er-2-preview",
+    "usage": {
+      "input_tokens": 3879,
+      "output_tokens": 54,
+      "total_tokens": 3933
+    },
+    "cost": {
+      "usd": 0.00415,
+      "jpy": 0.71
+    }
+  },
+  "trial02_continue": {
+    "chat": "指定位置へ設置。",
+    "function_calls": [
+      {
+        "name": "place",
+        "args": {
+          "y": 480,
+          "x": 480
+        }
+      }
+    ],
+    "actions": [
+      {
+        "name": "place",
+        "x": 480.0,
+        "y": 480.0
+      }
+    ],
+    "warnings": [],
+    "latency": 2.98,
+    "model": "gemini-robotics-er-2-preview",
+    "usage": {
+      "input_tokens": 5202,
+      "output_tokens": 20,
+      "total_tokens": 5222
+    },
+    "cost": {
+      "usd": 0.0053,
+      "jpy": 0.9
+    }
+  },
+  "trial02_judge": {
+    "views": 2,
+    "chat": "失敗\n\n開始時点と現在時点の画像を比較すると、以下の変化が確認できます。\n\n- **赤いキューブ**: 開始時点では左側にありましたが、現在時点では中央（青いキューブの左隣）に移動して置かれています。\n- **青いキューブ**: 開始時点に比べて、現在時点では位置が右側にずれ、角度も傾いています。\n\n赤いキューブを置くことには成功していますが、「青いキューブには触れないで」という条件に反して青いキューブに触れて動かしてしまっているため、タスクは失敗と判定します。",
+    "verdict": "failure",
+    "latency": 8.11,
+    "model": "gemini-robotics-er-2-preview",
+    "usage": {
+      "input_tokens": 4445,
+      "output_tokens": 1060,
+      "total_tokens": 5505
+    },
+    "cost": {
+      "usd": 0.00975,
+      "jpy": 1.66
+    },
+    "jev": {
+      "model": "jev-1.14.0",
+      "verdict": "success",
+      "confidence": 0.34,
+      "probabilities": {
+        "success": 0.56,
+        "failure": 0.42,
+        "cannot_tell": 0.02
+      },
+      "usage": {
+        "input_tokens": 3992,
+        "output_tokens": 41
+      },
+      "cost_usd": 0.000167664,
+      "latency_s": 0.576,
+      "cost_jpy": 0.0285,
+      "raw": {
+        "model": "jev-1.14.0",
+        "answers": {
+          "outcome": {
+            "type": "choice",
+            "choice": "success",
+            "confidence": 0.34,
+            "probabilities": {
+              "success": 0.56,
+              "failure": 0.42,
+              "cannot_tell": 0.02
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 3992,
+          "output_tokens": 41
+        }
+      }
+    }
+  },
+  "outcomes": [
+    {
+      "trial": 1,
+      "instruction": "赤いキューブを掴んで、青いキューブの左隣の空いている所に置いて。青いキューブには触れないで。",
+      "observed": "failure",
+      "label_source": "assistant visual review; author confirmation pending",
+      "reason": "Pick stopped for lateral drift. Place was not called. Red and blue remain in place.",
+      "pick_http_s": 24.043,
+      "pick_run": "20261021_200356"
+    },
+    {
+      "trial": 2,
+      "instruction": "赤いキューブを掴んで、青いキューブの左隣の空いている所に置いて。青いキューブには触れないで。",
+      "observed": "failure",
+      "label_source": "assistant visual review; author confirmation pending",
+      "reason": "Red transported left of blue, but blue displaced and rotated between after-pick and after-place views. Contact part not identified.",
+      "pick_http_s": 26.451,
+      "place_http_s": 10.473,
+      "pick_run": "20261021_200456"
+    },
+    {
+      "trial": 3,
+      "observed": "not_run",
+      "reason": "Stopped after unintended movement of blue cube."
+    }
+  ],
+  "no_action_query": {
+    "chat": "赤いキューブを掴んで、そのまま持ち上げた状態で保持しています。",
+    "function_calls": [],
+    "actions": [],
+    "usage": {
+      "input_tokens": 4148,
+      "output_tokens": 14,
+      "total_tokens": 4162
+    },
+    "model": "gemini-robotics-er-2-preview",
+    "latency": 2.95,
+    "cost": {
+      "usd": 0.00422,
+      "jpy": 0.72
+    }
+  },
+  "comparison": "Exploratory observations only; not part of the five fixed-action trials."
+}

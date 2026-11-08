@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "model": "gpt-6-luna",
+  "mode": "decisions-text",
+  "split": "eval",
+  "concurrency": 2,
+  "retries": 0,
+  "classification_instructions": "Which of the six breeds is the main pet in `photo`?",
+  "box_instructions": "The tight bounding box around the head of the main pet in `photo`, including ears but not the neck or body.",
+  "text_criteria": {
+    "British_Shorthair": "A British Shorthair cat.",
+    "Russian_Blue": "A Russian Blue cat.",
+    "Siamese": "A Siamese cat.",
+    "beagle": "A beagle dog.",
+    "boxer": "A boxer dog.",
+    "pug": "A pug dog."
+  },
+  "reference_ids": [],
+  "images_header": false,
+  "image_side": 384,
+  "notes": "Input is the photo only, as in Jev's state. No IDs, breed labels, filenames, or gold boxes are sent; images use base64 data URLs."
+}

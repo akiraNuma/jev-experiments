@@ -1,0 +1,309 @@
+{
+  "classification_baseline_always_one_breed": 0.16666666666666666,
+  "evaluation_n": 60,
+  "modes": {
+    "text-1.13": {
+      "n": 60,
+      "success": 60,
+      "failures": 0,
+      "cost_usd_total_success": 0.002089122,
+      "cost_usd_per_1000_success": 0.03481870000000001,
+      "input_tokens_median": 829.0,
+      "latency_ms_median": 168.91460399999983,
+      "latency_ms_max": 343.97470799999974,
+      "actual_models": [
+        "jev-1.13.0"
+      ],
+      "correct": 58,
+      "accuracy": 0.9666666666666667,
+      "wilson_95": [
+        0.886362257256914,
+        0.9908106807438021
+      ],
+      "correct_by_breed": {
+        "British_Shorthair": 9,
+        "Russian_Blue": 9,
+        "Siamese": 10,
+        "beagle": 10,
+        "boxer": 10,
+        "pug": 10
+      },
+      "wrong_ids": [
+        "British_Shorthair_160",
+        "Russian_Blue_132"
+      ]
+    },
+    "text-1.14": {
+      "n": 60,
+      "success": 60,
+      "failures": 0,
+      "cost_usd_total_success": 0.0020896260000000002,
+      "cost_usd_per_1000_success": 0.03482710000000001,
+      "input_tokens_median": 829.0,
+      "latency_ms_median": 162.89958350000006,
+      "latency_ms_max": 217.47437500000024,
+      "actual_models": [
+        "jev-1.14.0"
+      ],
+      "correct": 58,
+      "accuracy": 0.9666666666666667,
+      "wilson_95": [
+        0.886362257256914,
+        0.9908106807438021
+      ],
+      "correct_by_breed": {
+        "British_Shorthair": 10,
+        "Russian_Blue": 8,
+        "Siamese": 10,
+        "beagle": 10,
+        "boxer": 10,
+        "pug": 10
+      },
+      "wrong_ids": [
+        "Russian_Blue_132",
+        "Russian_Blue_166"
+      ]
+    },
+    "examples-1.13": {
+      "n": 60,
+      "success": 60,
+      "failures": 0,
+      "cost_usd_total_success": 0.008723148,
+      "cost_usd_per_1000_success": 0.1453858,
+      "input_tokens_median": 3462.0,
+      "latency_ms_median": 266.28887499999973,
+      "latency_ms_max": 713.889541,
+      "actual_models": [
+        "jev-1.13.0"
+      ],
+      "correct": 58,
+      "accuracy": 0.9666666666666667,
+      "wilson_95": [
+        0.886362257256914,
+        0.9908106807438021
+      ],
+      "correct_by_breed": {
+        "British_Shorthair": 10,
+        "Russian_Blue": 8,
+        "Siamese": 10,
+        "beagle": 10,
+        "boxer": 10,
+        "pug": 10
+      },
+      "wrong_ids": [
+        "Russian_Blue_132",
+        "Russian_Blue_166"
+      ]
+    },
+    "examples-1.14": {
+      "n": 60,
+      "success": 60,
+      "failures": 0,
+      "cost_usd_total_success": 0.008725206000000001,
+      "cost_usd_per_1000_success": 0.1454201,
+      "input_tokens_median": 3462.0,
+      "latency_ms_median": 177.3429584999999,
+      "latency_ms_max": 349.77250000000004,
+      "actual_models": [
+        "jev-1.14.0"
+      ],
+      "correct": 57,
+      "accuracy": 0.95,
+      "wilson_95": [
+        0.8629948352365147,
+        0.9828504978356043
+      ],
+      "correct_by_breed": {
+        "British_Shorthair": 10,
+        "Russian_Blue": 7,
+        "Siamese": 10,
+        "beagle": 10,
+        "boxer": 10,
+        "pug": 10
+      },
+      "wrong_ids": [
+        "Russian_Blue_132",
+        "Russian_Blue_166",
+        "Russian_Blue_16"
+      ]
+    },
+    "box-1.14": {
+      "n": 60,
+      "success": 60,
+      "failures": 0,
+      "cost_usd_total_success": 0.004900308000000001,
+      "cost_usd_per_1000_success": 0.08167180000000002,
+      "input_tokens_median": 1944.0,
+      "latency_ms_median": 171.91393699999992,
+      "latency_ms_max": 269.21175000000005,
+      "actual_models": [
+        "jev-1.14.0"
+      ],
+      "iou_median": 0.867998867177681,
+      "iou_mean": 0.8412307854348714,
+      "iou_ge_0.5": 60,
+      "center_baseline_iou_median": 0.3423305765494988,
+      "center_baseline_iou_ge_0.5": 16,
+      "pet_present_ge_0.5": 60,
+      "bicycle_present_ge_0.5": 0,
+      "bicycle_box_returned": 60,
+      "iou_by_id": {
+        "British_Shorthair_198": 0.6664015041943882,
+        "British_Shorthair_179": 0.8593923264581942,
+        "British_Shorthair_16": 0.9718236368379859,
+        "British_Shorthair_121": 0.758837322479317,
+        "British_Shorthair_186": 0.8466302439794086,
+        "British_Shorthair_175": 0.7251507998950957,
+        "British_Shorthair_160": 0.8730103528530536,
+        "British_Shorthair_104": 0.9229090934330885,
+        "British_Shorthair_193": 0.8757068663154611,
+        "British_Shorthair_200": 0.948517013507172,
+        "Russian_Blue_157": 0.7659338651008414,
+        "Russian_Blue_162": 0.9293091206792875,
+        "Russian_Blue_132": 0.8676008569385435,
+        "Russian_Blue_160": 0.8672176608123536,
+        "Russian_Blue_166": 0.8825228021942824,
+        "Russian_Blue_109": 0.7634998961961933,
+        "Russian_Blue_169": 0.8669648654745388,
+        "Russian_Blue_10": 0.8612845039973896,
+        "Russian_Blue_16": 0.9078856986107845,
+        "Russian_Blue_200": 0.7131192161132275,
+        "Siamese_110": 0.8496013197690403,
+        "Siamese_112": 0.6934931506849316,
+        "Siamese_109": 0.8987774738541003,
+        "Siamese_115": 0.9245436065727228,
+        "Siamese_167": 0.914328929643372,
+        "Siamese_159": 0.8012148813582648,
+        "Siamese_149": 0.8683968774168187,
+        "Siamese_178": 0.954466786714686,
+        "Siamese_103": 0.905062409288189,
+        "Siamese_119": 0.9273251024130271,
+        "beagle_118": 0.7221875533225666,
+        "beagle_139": 0.8932217231523074,
+        "beagle_181": 0.967176084241848,
+        "beagle_141": 0.8833426441577487,
+        "beagle_140": 0.8674954427277886,
+        "beagle_18": 0.8039389534990578,
+        "beagle_156": 0.8856867024070959,
+        "beagle_171": 0.9153765096863097,
+        "beagle_153": 0.6701677870759497,
+        "beagle_169": 0.9101551977787447,
+        "boxer_153": 0.8112206516500359,
+        "boxer_138": 0.9414923162377333,
+        "boxer_119": 0.757949637021261,
+        "boxer_103": 0.9135889255393932,
+        "boxer_145": 0.7668105956702309,
+        "boxer_15": 0.742939364139675,
+        "boxer_14": 0.8907390990595514,
+        "boxer_105": 0.9265337789448558,
+        "boxer_102": 0.9208398696753951,
+        "boxer_182": 0.8732575565427986,
+        "pug_191": 0.9512921954477727,
+        "pug_128": 0.5835734870317004,
+        "pug_15": 0.7706365503080083,
+        "pug_101": 0.8304520872870128,
+        "pug_131": 0.8249038247892416,
+        "pug_134": 0.9022234497997514,
+        "pug_116": 0.9189745912600839,
+        "pug_161": 0.6562839906814539,
+        "pug_162": 0.5172722238786898,
+        "pug_135": 0.8431861492924626
+      },
+      "center_baseline": {
+        "left": 0.25,
+        "top": 0.25,
+        "right": 0.75,
+        "bottom": 0.75
+      }
+    },
+    "decisions-text": {
+      "n": 60,
+      "success": 60,
+      "failures": 0,
+      "cost_usd_total_success": 0.0018840000000000003,
+      "cost_usd_per_1000_success": 0.031400000000000004,
+      "input_tokens_median": 314.0,
+      "latency_ms_median": 354.9932704999999,
+      "latency_ms_max": 1403.4854159999995,
+      "actual_models": [
+        "gpt-6-luna"
+      ],
+      "correct": 59,
+      "accuracy": 0.9833333333333333,
+      "wilson_95": [
+        0.9114487027240993,
+        0.9970518402052136
+      ],
+      "correct_by_breed": {
+        "British_Shorthair": 10,
+        "Russian_Blue": 9,
+        "Siamese": 10,
+        "beagle": 10,
+        "boxer": 10,
+        "pug": 10
+      },
+      "wrong_ids": [
+        "Russian_Blue_157"
+      ]
+    },
+    "decisions-examples": {
+      "n": 60,
+      "success": 60,
+      "failures": 0,
+      "cost_usd_total_success": 0.007314,
+      "cost_usd_per_1000_success": 0.12190000000000001,
+      "input_tokens_median": 1219.0,
+      "latency_ms_median": 523.6886044999998,
+      "latency_ms_max": 1193.522125,
+      "actual_models": [
+        "gpt-6-luna"
+      ],
+      "correct": 57,
+      "accuracy": 0.95,
+      "wilson_95": [
+        0.8629948352365147,
+        0.9828504978356043
+      ],
+      "correct_by_breed": {
+        "British_Shorthair": 10,
+        "Russian_Blue": 7,
+        "Siamese": 10,
+        "beagle": 10,
+        "boxer": 10,
+        "pug": 10
+      },
+      "wrong_ids": [
+        "Russian_Blue_157",
+        "Russian_Blue_132",
+        "Russian_Blue_16"
+      ]
+    }
+  },
+  "paired": {
+    "text1.13_vs_text1.14": {
+      "a_only": 1,
+      "b_only": 1,
+      "p_exact_two_sided": 1.0
+    },
+    "text1.14_vs_examples1.14": {
+      "a_only": 1,
+      "b_only": 0,
+      "p_exact_two_sided": 1.0
+    },
+    "text1.13_vs_examples1.13": {
+      "a_only": 1,
+      "b_only": 1,
+      "p_exact_two_sided": 1.0
+    },
+    "text1.14_vs_decisions-text": {
+      "a_only": 1,
+      "b_only": 2,
+      "p_exact_two_sided": 1.0
+    },
+    "text1.14_vs_decisions-examples": {
+      "a_only": 2,
+      "b_only": 1,
+      "p_exact_two_sided": 1.0
+    }
+  }
+}

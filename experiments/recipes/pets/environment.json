@@ -1,0 +1,18 @@
+{
+  "platform": "Darwin",
+  "machine": "arm64",
+  "python": "3.14.6",
+  "pillow": "12.2.0",
+  "node": "22.22.0",
+  "sdk_for_new_recipes": "none (HTTP multipart; existing SDK remains 0.6.0)",
+  "first_request": "2026-10-15T06:16:03.993Z",
+  "last_request": "2026-10-15T06:16:54.470Z",
+  "success": 264,
+  "control_400": 1,
+  "source_files_sha256": {
+    "scripts/prepare-pets.py": "a291830379b50f471e7a974c7aaa6b9965f76a326b99c24222c936fb961ad748",
+    "scripts/recipe-images.ts": "0258c48d0cd073ed880fab3f8e822e96a0adc2bdfbd6968b64405813e406faad",
+    "scripts/recipe-images-report.py": "d0ea40dc28d860c787412a6d1ff367ce2cc2417d78299a3acd5d7addc3d320f3",
+    "scripts/render-image-results.py": "0afd73a40dd20ef10e2ae75d8309370c233e02f562aee3ec2998982a8b4cd792"
+  }
+}

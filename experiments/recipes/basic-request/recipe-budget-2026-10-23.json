@@ -1,0 +1,189 @@
+{
+  "source": "existing per-call usage records; no new calls for recipe budget",
+  "included": "text and image evaluation, development data, question scaling and recorded additional comparisons",
+  "excluded": [
+    "coding agents",
+    "games",
+    "SO-101 operation",
+    "Claude",
+    "Gemini",
+    "unrecorded calls/retries"
+  ],
+  "input_price_usd_per_million": "0.042",
+  "text_input_tokens": 41001973,
+  "image_input_tokens": 466311,
+  "input_tokens": 41468284,
+  "cost_usd": "1.741667928",
+  "records": [
+    {
+      "file": "experiments/classify/results-banking77-jev.jsonl",
+      "sha256": "b7831d316b70a427a7bfceac54ae4a560d65aad607a9fd9c7eb6c4767b85e468",
+      "rows": 3080,
+      "input_tokens": 3202050,
+      "method": "sum row result.input_tokens or result.usage.input_tokens",
+      "group": "text"
+    },
+    {
+      "file": "experiments/classify/results-massive-ja-jev.jsonl",
+      "sha256": "d459c81208680ad6a03b7ba768c03bdcbb53a5bbb791178803e5e78e836f31f2",
+      "rows": 2974,
+      "input_tokens": 2448063,
+      "method": "sum row result.input_tokens or result.usage.input_tokens",
+      "group": "text"
+    },
+    {
+      "file": "experiments/recipes/goemotions/results-jev-dev.jsonl",
+      "sha256": "20713c825069346d13b4cf4e1c21876f3e3d8347df9b6b37304aa6b09d42402d",
+      "rows": 5426,
+      "input_tokens": 3720846,
+      "method": "sum row result.input_tokens or result.usage.input_tokens",
+      "group": "text"
+    },
+    {
+      "file": "experiments/recipes/goemotions/results-jev.jsonl",
+      "sha256": "3a4cae8979c52423eda0f44b357c053ffbe3dc44bf0e20423cb8295a00889239",
+      "rows": 5427,
+      "input_tokens": 3721504,
+      "method": "sum row result.input_tokens or result.usage.input_tokens",
+      "group": "text"
+    },
+    {
+      "file": "experiments/recipes/goemotions/results-scaling.jsonl",
+      "sha256": "b64803f67c13a7c1e1ba4231c7bdf2391bf15295b3d62c72fa06799e1ef42449",
+      "rows": 200,
+      "input_tokens": 91846,
+      "method": "sum row result.input_tokens or result.usage.input_tokens",
+      "group": "text"
+    },
+    {
+      "file": "experiments/recipes/toxicity-ja/results-jev.jsonl",
+      "sha256": "d10267082f3860eab956189a66fe8f0950f4ba932e8782bd278cd71c4e73c86d",
+      "rows": 3847,
+      "input_tokens": 10807997,
+      "method": "sum row result.input_tokens or result.usage.input_tokens",
+      "group": "text"
+    },
+    {
+      "file": "experiments/recipes/squad/results-jev-time.jsonl",
+      "sha256": "003411e0e9e77c8e69e92fe01fcd2d4c65d0d6b2501e67cf72fcd284c365d77c",
+      "rows": 30,
+      "input_tokens": 583777,
+      "method": "unique jev_input_tokens_total (counted once)",
+      "group": "text"
+    },
+    {
+      "file": "experiments/recipes/squad/results-jev.jsonl",
+      "sha256": "c8c86a2fb9a9ba55dade32814c62b424cef54f54ee84fdf45243c36b2ba67ec7",
+      "rows": 300,
+      "input_tokens": 5733136,
+      "method": "unique jev_input_tokens_total (counted once)",
+      "group": "text"
+    },
+    {
+      "file": "experiments/recipes/halueval/results-jev-other.jsonl",
+      "sha256": "84404cc5f38135c062c3689cfed78d1f24c0c457accbf4f10fd114cb2006e9c8",
+      "rows": 10000,
+      "input_tokens": 4816319,
+      "method": "sum row result.input_tokens or result.usage.input_tokens",
+      "group": "text"
+    },
+    {
+      "file": "experiments/recipes/halueval/results-jev.jsonl",
+      "sha256": "86c98c1a683a7f4f36dbec23aef884901a0f79f8815aa3a56c2de56a9b4f43d6",
+      "rows": 10000,
+      "input_tokens": 4816216,
+      "method": "sum row result.input_tokens or result.usage.input_tokens",
+      "group": "text"
+    },
+    {
+      "file": "experiments/recipes/contractnli/results-jev-separate.jsonl",
+      "sha256": "2ded09ac85428724c0b9219ea881d25e1bc681a17325325feabcbf8722ff4de8",
+      "rows": 10,
+      "input_tokens": 393526,
+      "method": "sum row result.input_tokens or result.usage.input_tokens",
+      "group": "text"
+    },
+    {
+      "file": "experiments/recipes/contractnli/results-jev.jsonl",
+      "sha256": "62181f423cca968f26f20bf2e1ce73b38dde046d36c2239d81fa350c4990fbcf",
+      "rows": 123,
+      "input_tokens": 529242,
+      "method": "sum row result.input_tokens or result.usage.input_tokens",
+      "group": "text"
+    },
+    {
+      "file": "experiments/recipes/cuad/results-jev.jsonl",
+      "sha256": "bf5cea3329029dd5328442bd6fc5334b819e2e2950892feccd7efc69b74f782f",
+      "rows": 102,
+      "input_tokens": 137451,
+      "method": "sum row result.input_tokens or result.usage.input_tokens",
+      "group": "text"
+    },
+    {
+      "file": "experiments/recipes/pets/results-box-1.14-dev.jsonl",
+      "sha256": "88e5da5d47a069f973495234b8ac58fb670fbfc5d0f64ea803f7fbba670aa1b4",
+      "rows": 6,
+      "input_tokens": 11672,
+      "method": "sum row result.input_tokens or result.usage.input_tokens",
+      "group": "image"
+    },
+    {
+      "file": "experiments/recipes/pets/results-box-1.14-eval.jsonl",
+      "sha256": "b4406cbcd2dd10388bb51189e3ecd873e9f5032e3c56050f8fa1211519567a34",
+      "rows": 60,
+      "input_tokens": 116674,
+      "method": "sum row result.input_tokens or result.usage.input_tokens",
+      "group": "image"
+    },
+    {
+      "file": "experiments/recipes/pets/results-examples-1.14-dev.jsonl",
+      "sha256": "081c38784754478ac3a0d1cbbb3d4e53ae768ab5a55c8bc3e3ab911e0dfee32d",
+      "rows": 6,
+      "input_tokens": 20780,
+      "method": "sum row result.input_tokens or result.usage.input_tokens",
+      "group": "image"
+    },
+    {
+      "file": "experiments/recipes/pets/results-examples-1.14-eval.jsonl",
+      "sha256": "71404c27c28a9f2b8cbb57ce9e9b9d57e42e7f628831b7dcd790e08eee2157e3",
+      "rows": 60,
+      "input_tokens": 207743,
+      "method": "sum row result.input_tokens or result.usage.input_tokens",
+      "group": "image"
+    },
+    {
+      "file": "experiments/recipes/pets/results-text-1.13-dev.jsonl",
+      "sha256": "284da3daf4036acb175650333a8cdd4b8dfcc5de600c39e0d3819b2ddcc09d67",
+      "rows": 6,
+      "input_tokens": 4974,
+      "method": "sum row result.input_tokens or result.usage.input_tokens",
+      "group": "image"
+    },
+    {
+      "file": "experiments/recipes/pets/results-text-1.13-eval.jsonl",
+      "sha256": "bf9997336fd66be01d9bb46fc4f5a4717231c09050601e02b28ee4ece7d5c58f",
+      "rows": 60,
+      "input_tokens": 49741,
+      "method": "sum row result.input_tokens or result.usage.input_tokens",
+      "group": "image"
+    },
+    {
+      "file": "experiments/recipes/pets/results-text-1.14-dev.jsonl",
+      "sha256": "29dd6d61a6b7cfb37e69bc45188313417b3b8ab98fa6306bc359158928cc4447",
+      "rows": 6,
+      "input_tokens": 4974,
+      "method": "sum row result.input_tokens or result.usage.input_tokens",
+      "group": "image"
+    },
+    {
+      "file": "experiments/recipes/pets/results-text-1.14-eval.jsonl",
+      "sha256": "0c0222a5fe7cc0645697a69751adeea3c98ebdb767d39faf3e85af7bd4a73958",
+      "rows": 60,
+      "input_tokens": 49753,
+      "method": "sum row result.input_tokens or result.usage.input_tokens",
+      "group": "image"
+    }
+  ],
+  "cost_basis": "reported API input token usage multiplied by published USD price; estimate only",
+  "billing_balance_verified": false
+}

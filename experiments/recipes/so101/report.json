@@ -1,0 +1,99 @@
+{
+  "source_sha256": "14ddba652c1f1fbcdf64beca9abcbc78bec1c7c5fedf4414f530482ddf1f9098",
+  "physical_trials": 5,
+  "sensor_gripped": 5,
+  "image_cases": 10,
+  "label_source": "Unblinded Codex visual review, not independent human annotation.",
+  "models": {
+    "jev": {
+      "models": [
+        "jev-1.14.0"
+      ],
+      "latency_seconds": {
+        "n": 10,
+        "median": 0.2975,
+        "mean": 0.2838,
+        "min": 0.189,
+        "max": 0.365,
+        "sample_sd": 0.059693290149638166
+      },
+      "estimated_verification_cost_usd": 0.000545958,
+      "agreement_with_provisional_labels": 10,
+      "by_state": {
+        "success": {
+          "n": 5,
+          "agreement": 5
+        },
+        "failure": {
+          "n": 5,
+          "agreement": 5
+        }
+      }
+    },
+    "gemini": {
+      "models": [
+        "gemini-robotics-er-2-preview"
+      ],
+      "latency_seconds": {
+        "n": 10,
+        "median": 3.495,
+        "mean": 3.561,
+        "min": 2.4,
+        "max": 4.68,
+        "sample_sd": 0.5884527735227922
+      },
+      "estimated_verification_cost_usd": 0.02202,
+      "agreement_with_provisional_labels": 10,
+      "by_state": {
+        "success": {
+          "n": 5,
+          "agreement": 5
+        },
+        "failure": {
+          "n": 5,
+          "agreement": 5
+        }
+      }
+    }
+  },
+  "pick_http_seconds": {
+    "n": 5,
+    "median": 26.362,
+    "mean": 27.6992,
+    "min": 25.898,
+    "max": 31.898,
+    "sample_sd": 2.5060887254843953
+  },
+  "servo_seconds": {
+    "n": 5,
+    "median": 5.8,
+    "mean": 7.16,
+    "min": 5.3,
+    "max": 11.4,
+    "sample_sd": 2.5948024973010955
+  },
+  "self_estimated_error_mm": {
+    "n": 5,
+    "median": 2.25,
+    "mean": 2.386,
+    "min": 1.59,
+    "max": 3.03,
+    "sample_sd": 0.6150853599298229
+  },
+  "cycle_seconds": {
+    "n": 5,
+    "median": 46.59,
+    "mean": 47.6684,
+    "min": 46.172,
+    "max": 50.964,
+    "sample_sd": 1.9805496206861368
+  },
+  "limits": [
+    "Single red cube, same nominal area; five repetitions are not five independent tasks.",
+    "Fixed existing Gemini pick hint, no per-trial natural-language planning.",
+    "Assistant labels are not independent human annotation.",
+    "Costs cover only the ten hold/empty verification requests for each model.",
+    "No complete tracking cost, no externally measured position accuracy.",
+    "Earlier transport pilots, single pick pilot, and no-action query are excluded."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-23T04:06:47.103Z",
+  "source": "chapters/chapter01.re //listnum[basic]",
+  "sdk_version": "0.6.0",
+  "code_sha256": "f3791dd76c7588280d4b9e6e14bc478a7bc2f2746288732998d71b69e981a30b",
+  "request_code": "const result = await client.systemOne({\n  model: \"jev-1.13.0\",\n  state: { message: \"キャッシュカードがまだ届きません\" },\n  questions: {\n    intent: {\n      type: \"choice\",\n      instructions: \"銀行への問い合わせは、どの種類に当たるか。\",\n      criteria: {\n        card_arrival: \"キャッシュカードの配送状況の問い合わせ。\",\n        lost_card: \"キャッシュカードをなくしたという連絡。\",\n        other: \"それ以外の問い合わせ。\",\n      },\n    },\n    urgent: {\n      type: \"noul\",\n      instructions: \"この問い合わせは、すぐに対応が要るか。\",\n    },\n  },\n});",
+  "calls": 1,
+  "duration_ms": 435,
+  "model": "jev-1.13.0",
+  "usage": {
+    "input_tokens": 431,
+    "output_tokens": 60
+  },
+  "answers": {
+    "intent": {
+      "type": "choice",
+      "choice": "card_arrival",
+      "confidence": 1,
+      "probabilities": {
+        "card_arrival": 1,
+        "lost_card": 0,
+        "other": 0
+      }
+    },
+    "urgent": {
+      "type": "noul",
+      "noul": 0.45
+    }
+  },
+  "input_price_usd_per_million": 0.042,
+  "usd_jpy_for_estimate": 157,
+  "cost_usd": 1.8102e-05,
+  "cost_jpy": 0.002842014,
+  "cost_basis": "reported API input token usage multiplied by published USD price; estimate only",
+  "billing_balance_verified": false
+}

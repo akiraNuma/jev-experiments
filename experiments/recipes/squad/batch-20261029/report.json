@@ -1,0 +1,75 @@
+{
+  "model": "jev-1.13.0",
+  "sdk_version": "0.6.0",
+  "expected_questions_per_method": 300,
+  "recorded_cost_usd_all_attempts": 0.47776596000000005,
+  "failed_attempts_with_incomplete_usage": 0,
+  "methods": {
+    "separate": {
+      "complete": true,
+      "n": 300,
+      "correct": 276,
+      "accuracy": 0.92,
+      "cost_per_question": 0.0008026390400000001,
+      "input_tokens_per_question": 19110.453333333335,
+      "requests_total": 11048,
+      "wall_ms_median": 504.3005,
+      "wall_ms_max": 789.784,
+      "historical_30_subset": {
+        "n": 30,
+        "wall_ms_median": 525.4675
+      },
+      "historical_haiku_subset": {
+        "n": 100,
+        "correct": 90,
+        "haiku_correct": 91,
+        "only_this_method_correct": 4,
+        "only_haiku_correct": 5
+      }
+    },
+    "batch": {
+      "complete": true,
+      "n": 300,
+      "correct": 159,
+      "accuracy": 0.53,
+      "cost_per_question": 0.00039648280000000003,
+      "input_tokens_per_question": 9440.066666666668,
+      "requests_total": 300,
+      "wall_ms_median": 212.853,
+      "wall_ms_max": 559.957,
+      "historical_30_subset": {
+        "n": 30,
+        "wall_ms_median": 213.236
+      },
+      "historical_haiku_subset": {
+        "n": 100,
+        "correct": 50,
+        "haiku_correct": 91,
+        "only_this_method_correct": 2,
+        "only_haiku_correct": 43
+      }
+    },
+    "batch-local": {
+      "complete": true,
+      "n": 300,
+      "correct": 279,
+      "accuracy": 0.93,
+      "cost_per_question": 0.00039343136000000005,
+      "input_tokens_per_question": 9367.413333333334,
+      "requests_total": 300,
+      "wall_ms_median": 206.11149999999998,
+      "wall_ms_max": 384.897,
+      "historical_30_subset": {
+        "n": 30,
+        "wall_ms_median": 211.8835
+      },
+      "historical_haiku_subset": {
+        "n": 100,
+        "correct": 92,
+        "haiku_correct": 91,
+        "only_this_method_correct": 4,
+        "only_haiku_correct": 3
+      }
+    }
+  }
+}

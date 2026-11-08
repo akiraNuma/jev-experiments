@@ -1,0 +1,40 @@
+{
+  "at": "2026-11-03T13:59:35.257Z",
+  "note": "第1章の3択で、確率が分かれる問い合わせの例",
+  "request": {
+    "model": "jev-1.13.0",
+    "state": {
+      "message": "カードが届かないのですが、どこかで落としたかもしれません"
+    },
+    "questions": {
+      "intent": {
+        "type": "choice",
+        "instructions": "銀行への問い合わせは、どの種類に当たるか。",
+        "criteria": {
+          "card_arrival": "キャッシュカードの配送状況の問い合わせ。",
+          "lost_card": "キャッシュカードをなくしたという連絡。",
+          "other": "それ以外の問い合わせ。"
+        }
+      }
+    }
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "intent": {
+        "type": "choice",
+        "choice": "card_arrival",
+        "confidence": 0.49,
+        "probabilities": {
+          "card_arrival": 0.66,
+          "lost_card": 0.34,
+          "other": 0
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 417,
+      "output_tokens": 43
+    }
+  }
+}

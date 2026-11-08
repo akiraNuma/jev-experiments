@@ -1,0 +1,29 @@
+{
+  "name": "jev-experiments",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test:decisions": "node --import tsx scripts/test-decisions-api.ts && python3 scripts/test_decisions_api.py && python3 scripts/test-rerank-report.py && python3 scripts/test-decisions-consumers.py && python3 scripts/test-decisions-book-report.py && python3 scripts/test-claude-measurement.py",
+    "example:first": "node --import tsx examples/first.ts",
+    "check": "npm run typecheck && npm run lint && npm run test:decisions"
+  },
+  "dependencies": {
+    "@typesafe-ai/sdk": "0.6.0",
+    "dotenv": "^17.2.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^22.18.1",
+    "eslint": "^10.11.0",
+    "tsx": "^4.20.6",
+    "typescript": "6.0.3",
+    "typescript-eslint": "^8.70.0"
+  },
+  "license": "MIT"
+}

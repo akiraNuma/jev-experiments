@@ -1,0 +1,15 @@
+{
+  "source": "https://www.robots.ox.ac.uk/~vgg/data/pets/",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution": "Oxford-IIIT Pet / O. M. Parkhi, A. Vedaldi, A. Zisserman, C. V. Jawahar (2012); photo copyright remains with original owners.",
+  "changes": "Resized and padded source photographs; added annotation and Jev boxes, labels and layout. Adaptation: Akira Numakura, CC BY-SA 4.0. Provided without warranty.",
+  "selection": "First evaluation image of each breed in the fixed manifest, independent of scores.",
+  "source_ids": [
+    "British_Shorthair_198",
+    "Russian_Blue_157",
+    "Siamese_110",
+    "beagle_118",
+    "boxer_153",
+    "pug_191"
+  ]
+}

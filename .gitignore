@@ -1,0 +1,16 @@
+node_modules/
+__pycache__/
+.env
+.env.*
+!.env.example
+*.log
+dist/
+output/
+.DS_Store
+experiments/raw/
+# 公開データはリポジトリに入れない。取得方法は experiments/DATA.md
+# （LLM-jp の国外サーバーへの注意と、著者が再配布しない判断は experiments/DATA.md を参照）
+experiments/classify/data/
+experiments/recipes/*/data/
+# ViZDoom が実行時に作る設定ファイル
+_vizdoom.ini
