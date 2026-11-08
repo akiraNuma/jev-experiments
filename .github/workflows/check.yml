@@ -21,7 +21,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run check
-      - run: npm audit
+      # 読者が実験で使う依存だけを検査する。開発用ツール（ESLintなど）の指摘では止めない
+      - run: npm audit --omit=dev
       - name: Recalculate saved results without API keys or source datasets
         run: |
           node --import tsx scripts/classify-report.ts
